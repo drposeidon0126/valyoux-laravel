@@ -1,0 +1,2202 @@
+# Webalizer V2.23-08 Incremental Data - 10/18/2022 01:21:25
+2022 10 18 1 21 25
+371924 353118 377 323 106 48 7536690492 357569 13452 0 0 0
+1 4 12336 1 18
+237 148 25231962 10 52 10 0 0
+252 174 36057252 8 49 12 0 0
+2678 1459 1581867238 14 861 24 0 0
+191 79 44498757 6 81 10 0 0
+3700 2766 726082950 27 2778 167 0 0
+18877 16914 237753516 47 18193 1366 0 0
+87431 84256 727579180 77 85897 4551 0 0
+90170 87617 1011951281 55 89126 2096 0 0
+61153 59863 186028847 50 60806 1552 0 0
+17267 15768 533876939 43 15568 347 0 0
+30569 28720 786167085 38 28854 1091 0 0
+17248 16965 314671422 36 16635 96 0 0
+6688 5652 240014738 41 5352 73 0 0
+14539 13120 794896234 26 13071 671 0 0
+10236 10161 24866416 24 10156 1262 0 0
+542 488 3769454 14 417 15 0 0
+10142 8966 261349384 14 9670 124 0 0
+4 2 27837 1 3 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+14558 14346 78644678 14201 0 0
+13807 13617 89903479 13559 0 0
+15286 13943 64993174 15186 0 0
+20013 19948 47146593 19900 0 0
+11864 11793 35029213 11770 0 0
+9126 8976 87386429 8739 0 0
+13255 12478 92847843 13012 0 0
+8823 7646 190782478 8218 0 0
+11364 10607 754869600 10300 0 0
+24668 23910 459195747 23763 0 0
+23004 21512 276436459 22306 0 0
+17058 16124 211072251 16186 0 0
+7199 6350 405888271 6288 0 0
+3964 2703 272088079 3368 0 0
+14374 12983 1602225996 13015 0 0
+21212 20832 331931967 20772 0 0
+16229 15288 278972348 15861 0 0
+10596 10110 156073922 9953 0 0
+17896 16283 397776952 16625 0 0
+25251 24309 393324296 24226 0 0
+20264 18921 412215785 19434 0 0
+20899 19871 289936442 20319 0 0
+16164 15861 165862016 15912 0 0
+15050 14707 442086474 14656 0 0
+6415
+0
+0
+353118
+0
+0
+0
+0
+0
+5250
+0
+3
+1871
+0
+135
+0
+0
+0
+102
+0
+0
+1748
+12
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3270
+0
+0
+0
+0
+0
+# -urls- 
+/products
+0 2 0 31165 0 0 0 0
+/public/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.css
+0 1 0 2739 0 0 0 0
+/valyoucomment
+0 5 0 29588 0 0 0 0
+/artist/stock-price/7
+0 28 0 492865 1 2 0 0
+/public/assets/uploads/user/1182249971.jpg
+1 5 0 231375 0 0 0 0
+/valyou-delete-comment
+0 2 0 4576 0 0 0 0
+/public/assets/images/valyoux/business.svg
+0 45 0 106541 0 0 0 0
+/getvideolist
+0 3 0 11773 0 0 0 0
+/assets/images/product/img-4.png
+1 37 0 47099 0 0 0 0
+/public/assets/css/pages/my-songs.css
+0 10 0 24273 0 0 0 0
+/assets/images/valyou_x_black_logo.svg
+0 182 0 424019 0 0 0 0
+/public/assets/uploads/user/1297268840.png
+1 40 0 18657462 0 0 0 0
+/artist/posts/5
+0 20 0 443717 1 1 0 0
+/public/assets/fonts/fa-solid-900.woff2
+0 55 0 4221517 0 0 0 0
+/public/assets/libs/jquery.easing/jquery.easing.min.js
+0 3 0 9026 0 0 0 0
+/assets/images/product/img-5.png
+1 5 0 2104 0 0 0 0
+/public/assets/libs/node-waves/node-waves.min.js
+0 88 0 278239 0 0 0 0
+/public/assets/css/icons.min.css
+0 74 0 5050749 0 0 0 0
+/public/assets/uploads/artist/425655336.jpeg
+0 12 0 502372 0 0 0 0
+/socialmedia
+0 66 0 1598304 2 1 0 0
+/public/assets/images/pause-button.svg
+0 2 0 1320 0 0 0 0
+/public/assets/uploads/user/1337907670.jfif
+0 2 0 95385 0 0 0 0
+/public/assets/images/valyou_x_black_logo.svg
+0 83 0 1070322 0 0 0 0
+/public/assets/js/app.min.js
+0 87 0 160958 0 0 0 0
+/public/assets/uploads/artist/1411570369.jpeg
+0 35 0 210833 0 0 0 0
+/public/assets/images/valyoux/nicky_minaj_valyou_x@2x.png
+1 1 0 103262 0 0 0 0
+/public/assets/images/bank/investor_icon.svg
+0 1 0 5360 0 0 0 0
+/null
+0 4 0 25293 0 0 0 0
+/public/assets/libs/dropify/fonts/dropify.woff
+0 7 0 24087 0 0 0 0
+/artist/stock-price/20
+0 1 0 15860 0 0 0 0
+/public/assets/js/pages/crypto-wallet.init.js
+0 5 0 11998 0 0 0 0
+/register
+0 3 0 31298 0 0 0 0
+/check-smtp
+0 3151 0 8719948 160 165 0 0
+/getfollowerlist
+0 1464 0 6378793 22 6 0 0
+/public/assets/uploads/user/1377502870.PNG
+1 2 0 896830 0 0 0 0
+/artist/stock-price/3
+0 6 0 94881 0 0 0 0
+/attachments-upload
+0 2 0 14818 0 0 0 0
+/public/assets/images/Headphone investor.svg
+0 11 0 32808 0 0 0 0
+/artist/followers/5
+0 3 0 62384 0 0 0 0
+/public/assets/libs/dropify/js/dropify.js
+0 11 0 58554 0 0 0 0
+/public/assets/images/valyoux/major_independent_artist_valyouxmusic.svg
+0 1 0 5360 0 0 0 0
+/public/assets/libs/dropify/css/dropify.min.css
+0 54 0 211977 0 0 0 0
+/artist/collaborate/7
+0 1 0 22510 0 0 0 0
+/public/assets/uploads/user/1540493487.jpeg
+0 42 0 130381914 0 0 0 0
+/public/assets/uploads/artist/1773380133.jpg
+1 13 0 100679 0 0 0 0
+/public/assets/css/app.min.css
+0 84 0 1776661 0 0 0 0
+/public/assets/libs/select2/select2.min.js
+0 44 0 935675 0 0 0 0
+/public/assets/libs/simplebar/simplebar.min.js
+0 89 0 1284311 0 0 0 0
+/artist/posts/3
+0 3 0 73054 0 0 0 0
+/public/assets/uploads/user/322067509.jpg
+1 6 0 411328 0 0 0 0
+/artist/collaborate/3
+0 1 0 21587 0 0 0 0
+/public/assets/uploads/artist/73078292.jpeg
+0 32 0 209108 0 0 0 0
+/public/assets/js/pages/country-state-city.js
+0 2 0 953394 0 0 0 0
+/public/assets/images/valyoux/wallet-1.svg
+0 49 0 111912 0 0 0 0
+/public/assets/images/valyoux/stockmarket_icon.svg
+0 45 0 149294 0 0 0 0
+/public/assets/css/pages/microtip.css
+0 10 0 39496 0 0 0 0
+/public/assets/images/valyoux/musicfan_investor_icon.svg
+0 35 0 105909 0 0 0 0
+/get/users
+0 10 0 86862 0 0 0 0
+/artist/followers/7
+0 4 0 91070 0 0 0 0
+/assets/images/crypto/features-img/img-1.png
+1 19 0 14298 0 0 0 0
+/public/assets/libs/owl.carousel/owl.carousel.min.js
+0 4 0 52269 0 0 0 0
+/assets/images/users/avatar-8.jpg
+1 20 0 4160 0 0 0 0
+/public/assets/uploads/artist/343905976.jpg
+1 2 0 77177 0 0 0 0
+/artist/profile/20
+0 1 0 15876 0 1 0 0
+/settings
+0 1 0 16782 0 1 0 0
+/public/assets/libs/select2/select2.min.css
+0 37 0 136545 0 0 0 0
+/loadmoredata
+0 279 0 4093927 36 22 0 0
+/public/assets/fonts/boxicons.ttf
+0 3 0 635253 0 0 0 0
+/videos-list
+0 1 0 17766 0 0 0 0
+/public/assets/js/pages/crypto-kyc-app.init.js
+0 1 0 1434 0 0 0 0
+/auth-login
+0 1 0 10689 0 0 0 0
+/public/assets/libs/intl-tel-input/img/flags.png
+1 8 0 571152 0 0 0 0
+/public/assets/images/valyoux/pink_arrow_circle_down.svg
+0 20 0 41545 0 0 0 0
+/public/assets/images/valyoux/bobby_k9_valyou_x_music250@2x.png
+1 1 0 94412 0 0 0 0
+/public/assets/js/plugins/jquery-validation/js/additional-methods.min.js
+0 3 0 26576 0 0 0 0
+/public/assets/images/valyoux/vxd.png
+1 10 0 851278 0 0 0 0
+/artist/followers/3
+0 2 0 45145 1 0 0 0
+/upload-media
+0 6 0 99377 0 0 0 0
+/public/assets/images/valyoux/justin_beiber_valyou_x_music@2x.png
+1 3 0 275360 0 0 0 0
+/assets/images/clients/1.png
+1 21 0 58758 0 0 0 0
+/public/assets/fonts/materialdesignicons-webfont.ttf
+0 21 0 4374231 0 0 0 0
+/artist/stock-price/9
+0 3 0 55238 0 1 0 0
+/vxd-orders
+0 5 0 66066 0 0 0 0
+/public/assets/images/valyoux/artist_icon.svg
+0 15 0 47468 0 0 0 0
+/artist/songs/5
+0 11 0 193622 0 1 0 0
+/public/assets/uploads/artist/1396741054.jpg
+1 40 0 1197639 0 0 0 0
+/public/assets/uploads/user/1575468486.jpg
+1 1 0 5360 0 0 0 0
+/public/assets/js/pages/profile.init.js
+0 1 0 1147 0 0 0 0
+/public/assets/uploads/user/95921474.png
+1 2 0 155980 0 0 0 0
+/public/assets/libs/intl-tel-input/js/intlTelInput.js
+0 45 0 991758 0 0 0 0
+/assets/images/users/avatar-3.jpg
+1 20 0 19679 0 0 0 0
+/public/assets/js/custom.min.js
+0 3 0 11663 0 0 0 0
+/business-profile
+0 15 0 221530 0 1 0 0
+/assets/images/clients/6.png
+1 20 0 5224 0 0 0 0
+/public/assets/uploads/user/415903533.png
+1 98 0 486960248 0 0 0 0
+/public/artist-profile/5
+0 160 0 2768066 0 6 0 0
+/assets/images/clients/3.png
+1 20 0 30557 0 0 0 0
+/public/assets/images/valyoux/pro_artist@2x.png
+1 1 0 119853 0 0 0 0
+/investor/watch-to-earn
+0 2 0 53518 0 0 0 0
+/public/assets/uploads/videos/1029117970.mp4
+0 485 0 345875334 0 0 0 0
+/investors
+0 6 0 75166 0 0 0 0
+/public/assets/libs/twitter-bootstrap-wizard/twitter-bootstrap-wizard.min.js
+0 1 0 8186 0 0 0 0
+/public/assets/uploads/artist/2053548970.jpg
+1 13 0 548567 0 0 0 0
+/getviplist
+0 10 0 72892 0 1 0 0
+/public/assets/libs/jquery/jquery.min.js
+0 91 0 2902066 0 0 0 0
+/_ignition/health-check
+0 27 0 68415 1 2 0 0
+/market
+0 81 0 1350039 6 1 0 0
+/songs-list
+0 2 0 59622 0 0 0 0
+/public/assets/images/valyoux/businessicon.svg
+0 13 0 24372 0 0 0 0
+/public/assets/uploads/artist/1076442079.jpg
+1 34 0 1248853 0 0 0 0
+/assets/images/crypto/features-img/img-2.png
+1 19 0 9125 0 0 0 0
+/public/assets/uploads/user/1526577937.jpg
+1 1 0 136206 0 0 0 0
+/public/assets/uploads/artist/1433318057.jpg
+1 13 0 591895 0 0 0 0
+/loadmoresocialdata
+0 231 0 739380 14 2 0 0
+/public/assets/images/users/avatar-4.jpg
+1 2 0 29682 0 0 0 0
+/public/assets/libs/dropzone/dropzone.min.js
+0 2 0 33375 0 0 0 0
+/assets/images/product/img-2.png
+1 5 0 11918 0 0 0 0
+/assets/images/users/avatar-2.jpg
+1 20 0 35198 0 0 0 0
+/public/assets/images/login-btn.svg
+0 54 0 930545 0 0 0 0
+/public/assets/css/pages/promote-music.css
+0 35 0 164311 0 0 0 0
+/favicon.ico
+0 124 0 749140 0 0 0 0
+/artist/artist/edit/5
+0 1 0 20736 0 0 0 0
+/public/assets/uploads/artist/72921766.jpg
+1 49 0 15017331 0 0 0 0
+/public/assets/images/valyoux/ethereum_logo_valyou_x_music.svg
+0 16 0 3365137 0 0 0 0
+/public/assets/css/pages/my-videos.css
+0 9 0 28216 0 0 0 0
+/public/assets/css/pages.css
+0 79 0 584570 0 0 0 0
+/public/assets/images/valyoux/accountSwitch.svg
+0 43 0 157975 0 0 0 0
+/public/
+0 30 0 472592 0 10 0 0
+/.env
+0 12 0 49890 0 0 0 0
+/public/assets/images/valyoux/usdc_icon.png
+1 2 0 243292 0 0 0 0
+/my-mailer
+0 338482 0 732342499 12767 12589 0 0
+/public/assets/js/pages/form-validation.init.js
+0 9 0 16427 0 0 0 0
+/public/assets/images/valyoux/beyonce250@2x.png
+1 2 0 356265 0 0 0 0
+/public/assets/images/rewind.svg
+0 2 0 5276 0 0 0 0
+/loadinvestordata
+0 723 0 2670880 11 3 0 0
+/public/assets/uploads/artist/120570651.jpg
+1 39 0 2564354 0 0 0 0
+/public/assets/images/valyou_x_emblem.svg
+0 78 0 597315 0 0 0 0
+/public/assets/images/valyuxusdcPayment.png
+1 8 0 810390 0 0 0 0
+/artist/profile/18
+0 1 0 20378 0 0 0 0
+/artist/songs/7
+0 7 0 134832 1 1 0 0
+/public/assets/images/payment_methods_logos-1.png
+1 9 0 1256624 0 0 0 0
+/public/assets/images/Valyou-X-Investors-search-3788.svg
+0 28 0 305634 0 0 0 0
+/artist/songs/3
+0 6 0 109194 0 0 0 0
+/assets/images/logo.svg
+0 1 0 5381 0 0 0 0
+/artist/stock-price/8
+0 1 0 20108 0 0 0 0
+/public/assets/uploads/user/738316105.png
+1 9 0 589328 0 0 0 0
+/artist/stock-price/18
+0 1 0 15492 0 0 0 0
+/public/assets/images/users/avatar-2.jpg
+1 2 0 21372 0 0 0 0
+/watch
+0 95 0 3212485 9 1 0 0
+/public/assets/images/valyoux/social_media_valyoux_new.svg
+0 44 0 197622 0 0 0 0
+/artist/posts/7
+0 3 0 73855 0 0 0 0
+/public/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js
+0 1 0 10303 0 0 0 0
+/public/assets/js/pages/product-filter-range.init.js
+0 7 0 12656 0 0 0 0
+/mysongs
+0 1 0 22233 0 0 0 0
+/public/assets/libs/bootstrap/bootstrap.min.js
+0 89 0 2053659 0 0 0 0
+/Bobby
+0 8 0 59828 0 0 0 0
+/assets/images/users/avatar-5.jpg
+1 20 0 30557 0 0 0 0
+/public/assets/images/valyoux/get_signed-on_valyou_x.svg
+0 2 0 9148 0 0 0 0
+/public/assets/images/send-_promote_start.svg
+0 10 0 30252 0 0 0 0
+/public/assets/images/valyoux/qr_codes.png
+1 1 0 68509 0 0 0 0
+/artist/followers/18
+0 1 0 22593 0 0 0 0
+/valyousong
+0 23 0 120119 2 3 0 0
+/public/assets/fonts/fa-solid-900.ttf
+0 8 0 1506886 0 0 0 0
+/public/assets/images/valyoux/starving_artist_looking_for_a_sponsor_investor.svg
+0 2 0 45088 0 0 0 0
+/public/assets/libs/intl-tel-input/css/intlTelInput.css
+0 37 0 197992 0 0 0 0
+/currency-exchange
+0 33 0 455811 2 2 0 0
+/public/investor
+0 518 0 10536853 0 39 0 0
+/public/assets/css/pages/projects-list.css
+0 9 0 25766 0 0 0 0
+/loadmorevideos
+0 124 0 409481 3 0 0 0
+/mailer004
+0 393 0 3985788 140 31 0 0
+/store
+0 3 0 39677 0 0 0 0
+/public/assets/images/register-btn.svg
+0 3 0 61382 0 0 0 0
+/artist/songs/20
+0 2 0 36519 0 0 0 0
+/artist-profile/5
+0 16 0 284224 0 0 0 0
+/public/assets/libs/tagify/tagify.min.js
+0 46 0 762954 0 0 0 0
+/login
+0 798 0 4745675 106 158 0 0
+/clear-cache
+0 38 0 142673 4 3 0 0
+/investment-portfolio
+0 5 0 74258 0 0 0 0
+/artist/invite/7
+0 3 0 65549 0 0 0 0
+/artist/subscriptions/7
+0 2 0 42609 0 0 0 0
+/public/assets/libs/dropzone/dropzone.min.css
+0 5 0 25064 0 0 0 0
+/public/assets/uploads/videos/147967631.mp4
+0 845 0 732689650 0 0 0 0
+/public/assets/libs/intl-tel-input/js/utils.js
+0 49 0 2848601 0 0 0 0
+/public/assets/images/PReward per listen .svg
+0 20 0 118405 0 0 0 0
+/assets/images/product/img-3.png
+1 5 0 22264 0 0 0 0
+/artist/stock-price/5
+0 2 0 40146 0 0 0 0
+/listenandearn
+0 16 0 201711 0 0 0 0
+/assets/images/clients/4.png
+1 20 0 35730 0 0 0 0
+/investor
+0 773 0 17335518 69 5 0 0
+/upload
+0 2 0 15370 0 0 0 0
+/public/assets/uploads/audios/1146832038.mp3
+0 716 0 690667969 0 0 0 0
+/artist/investment-deal/7
+0 2 0 42621 0 0 0 0
+/public/assets/js/pages/custom-player.js
+0 43 0 116569 0 0 0 0
+/public/assets/images/valyou_xemblem.svg
+0 10 0 65997 0 0 0 0
+/public/assets/images/bank/business_icon.svg
+0 1 0 13866 0 0 0 0
+/public/assets/images/valyoux/video_player.svg
+0 5 0 20054 0 0 0 0
+/public/assets/images/valyoux/artist.svg
+0 44 0 118021 0 0 0 0
+/account-balance
+0 46 0 1305128 8 3 0 0
+/artist/stock-price/10
+0 1 0 21028 0 0 0 0
+/public/assets/images/valyoux/news_feed_post.svg
+0 5 0 14370 0 0 0 0
+/assets/images/clients/5.png
+1 20 0 46076 0 0 0 0
+/public/assets/images/valyoux/message icon.svg
+0 49 0 108116 0 0 0 0
+/crypto-kyc-application
+0 23 0 326884 1 1 0 0
+/public/assets/uploads/user/1006870548.jpg
+1 3 0 25151 0 0 0 0
+/assets/images/product/img-1.png
+1 5 0 7277 0 0 0 0
+/public/assets/images/valyoux/eye.svg
+0 44 0 42141 0 0 0 0
+/artist/videos/7
+0 4 0 90719 0 0 0 0
+/public/assets/uploads/artist/1721891873.jpeg
+0 24 0 1042138 0 0 0 0
+/artist/videos/20
+0 1 0 23443 0 0 0 0
+/public/assets/images/valyoux/Kanye_west_valyou_x_music@2x.png
+1 14 0 3797297 0 0 0 0
+/public/assets/uploads/user/803202260.png
+1 9 0 50044 0 0 0 0
+/public/assets/images/users/avatar-1.jpg
+1 10 0 164427 0 0 0 0
+/public/assets/images/valyoux/valyouxartiststaterpackicon.svg
+0 1 0 10078 0 0 0 0
+/public/assets/images/valyoux/investor.svg
+0 48 0 256324 0 0 0 0
+/public/assets/uploads/user/1365957059.JPG
+1 2 0 163049 0 0 0 0
+/public/assets/images/fast-forward.svg
+0 7 0 21373 0 0 0 0
+/artist/ecommerce-products/7
+0 2 0 47456 0 0 0 0
+/public/assets/uploads/videos/2136114743.mp4
+0 450 0 396541082 0 0 0 0
+/public/assets/images/layouts/layout-3.jpg
+1 49 0 8333880 0 0 0 0
+/public/assets/libs/sweetalert2/sweetalert2.min.js
+0 88 0 1105660 0 0 0 0
+/public/assets/uploads/artist/468039220.jpg
+1 19 0 163258 0 0 0 0
+/artist/posts/9
+0 4 0 87140 1 0 0 0
+/assets/images/error-img.png
+1 9 0 33442 0 0 0 0
+/assets/images/verification-img.png
+1 28 0 64855 0 0 0 0
+/artist/bank/7
+0 2 0 43154 0 1 0 0
+/public/assets/fonts/fa-brands-400.woff2
+0 6 0 396683 0 0 0 0
+/public/assets/images/valyoux/valyousongiconnew@2x.png
+1 18 0 151735 0 0 0 0
+/public/assets/uploads/user/1708502489.jpg
+1 4 0 147258 0 0 0 0
+/public/assets/libs/datatables/datatables.min.js
+0 6 0 335840 0 0 0 0
+/artist/videos/5
+0 19 0 394585 3 0 0 0
+/public/assets/uploads/artist/1245539121.jpg
+1 27 0 58611 0 0 0 0
+/public/assets/images/valyoux/drake-valyou_x_music@2x.png
+1 1 0 382003 0 0 0 0
+/public/assets/js/pages/dashboard.init.js
+0 6 0 15265 0 0 0 0
+/public/assets/libs/parsleyjs/parsleyjs.min.js
+0 10 0 133903 0 0 0 0
+/artist/videos/9
+0 4 0 90078 0 0 0 0
+/artist/artist/create
+0 11 0 185361 3 3 0 0
+/public/assets/images/valyou_x_white_logo.svg
+0 4 0 55272 0 0 0 0
+/public/assets/uploads/user/1048253232.jpg
+1 6 0 9421347 0 0 0 0
+/public/assets/js/pages/crypto-orders.init.js
+0 1 0 1433 0 0 0 0
+/public/assets/uploads/user/25876836.png
+1 1 0 77034 0 0 0 0
+/public/assets/uploads/videos/1514264317.mp4
+0 1141 0 991639641 0 0 0 0
+/public/assets/libs/datatables/datatables.min.css
+0 4 0 18641 0 0 0 0
+/public/assets/images/valyoux/vuxlogo.svg
+0 16 0 118269 0 0 0 0
+/public/assets/libs/tagify/tagify.css
+0 38 0 161958 0 0 0 0
+/public/assets/uploads/artist/1946595759.jpg
+1 36 0 1072328 0 0 0 0
+/
+0 27 0 451475 38 5 0 0
+/public/assets/images/valyoux/bitcoinlogo.svg
+0 22 0 11369266 0 0 0 0
+/public/assets/uploads/business/630226490.jpg
+1 29 0 876307 0 0 0 0
+/public/assets/uploads/user/1992130222.png
+1 5 0 72570 0 0 0 0
+/public/assets/images/valyoux/upcomingartistplanicon.svg
+0 2 0 10147 0 0 0 0
+/public/assets/js/pages/ico-landing.init.js
+0 3 0 4297 0 0 0 0
+/artist/stock-price/17
+0 1 0 15462 0 0 0 0
+/public/assets/js/app.js
+0 90 0 244416 0 0 0 0
+/public/assets/fonts/fa-regular-400.woff2
+0 3 0 27987 0 0 0 0
+/artist/profile/5
+0 17 0 308469 2 3 0 0
+/public/assets/uploads/artist/1789377577.jpeg
+0 36 0 539957 0 0 0 0
+/crypto-ico-landing
+0 20 0 268418 1 1 0 0
+/public/assets/uploads/user/866549667.jpeg
+0 5 0 209703 0 0 0 0
+/public/assets/fonts/fa-solid-900.woff
+0 8 0 838889 0 0 0 0
+/public/assets/images/users/avatar-3.jpg
+1 2 0 37756 0 0 0 0
+/assets/images/product/img-6.png
+1 5 0 1572 0 0 0 0
+/public/assets/libs/sweetalert2/sweetalert2.min.css
+0 75 0 452761 0 0 0 0
+/public/assets/libs/metismenu/metismenu.min.js
+0 88 0 232380 0 0 0 0
+/assets/images/profile-img.png
+1 36 0 103262 0 0 0 0
+/public/assets/images/valyoux/verify_valyouxaccount_id_card.svg
+0 44 0 154078 0 0 0 0
+/public/assets/uploads/artist/63680298.jpeg
+0 33 0 225985 0 0 0 0
+/public/assets/images/layouts/layout-1.jpg
+1 48 0 8505688 0 0 0 0
+/public/assets/uploads/artist/679484641.jpg
+1 36 0 197268 0 0 0 0
+/public/assets/images/layouts/layout-2.jpg
+1 49 0 8807696 0 0 0 0
+/public/assets/images/comments.svg
+0 20 0 63443 0 0 0 0
+/my-artists
+0 2 0 55241 0 0 0 0
+/valyouartist
+0 2 0 10409 0 0 0 0
+/artist/profile/7
+0 3 0 51902 0 0 0 0
+/assets/images/product/img-7.png
+1 32 0 44463 0 0 0 0
+/public/assets/js/pages/form-advanced.init.js
+0 6 0 16963 0 0 0 0
+/public/assets/uploads/videos/1644020841.mp4
+0 678 0 614329273 0 0 0 0
+/qr-code
+0 2 0 32096 0 0 0 0
+/public/assets/libs/intl-tel-input/img/flags@2x.png
+1 9 0 1582519 0 0 0 0
+/public/assets/uploads/user/1440131042.jpeg
+0 5 0 220950 0 0 0 0
+/public/assets/uploads/user/854789885.jpg
+1 5 0 267772 0 0 0 0
+/connect
+0 3 0 29806 0 0 0 0
+/loadmore
+0 504 0 2429970 12 13 0 0
+/chat
+0 8 0 142216 0 0 0 0
+/artist/songs/9
+0 3 0 59748 0 0 0 0
+/robots.txt
+0 9 0 63849 0 0 0 0
+/assets/images/left-arrow.svg
+0 8 0 13074 0 0 0 0
+/public/assets/libs/axios/axios.min.js
+0 22 0 117147 0 0 0 0
+/public/assets/fonts/materialdesignicons-webfont.woff2
+0 91 0 21765703 0 0 0 0
+/public/assets/fonts/boxicons.woff2
+0 38 0 2797615 0 0 0 0
+/artist/followers/9
+0 1 0 22597 0 0 0 0
+/public/assets/libs/dropify/fonts/dropify.ttf
+0 1 0 5493 0 0 0 0
+/assets/images/users/avatar-1.jpg
+1 20 0 45544 0 0 0 0
+/public/assets/js/pages/crypto-exchange.init.js
+0 15 0 46485 0 0 0 0
+/loadinvestmentdata
+0 5 0 11243 0 0 0 0
+/public/assets/images/bank/artist_icon.svg
+0 1 0 5360 0 0 0 0
+/public/assets/uploads/artist/1863443496.png
+1 13 0 3234285 0 0 0 0
+/public/assets/images/valyoux/green_arrow_price_going_up.svg
+0 22 0 28711 0 0 0 0
+/public/assets/uploads/user/656210833.jpg
+1 1 0 52289 0 0 0 0
+/public/assets/uploads/user/1588029527.jpg
+1 3 0 9906599 0 0 0 0
+/public/assets/images/promote.svg
+0 20 0 56845 0 0 0 0
+/public/assets/images/play-button.svg
+0 35 0 32564 0 0 0 0
+/public/assets/libs/jquery-countdown/jquery-countdown.min.js
+0 3 0 11200 0 0 0 0
+/artist/promote/7
+0 1 0 21442 0 0 0 0
+/public/assets/js/plugins/jquery-validation/js/jquery.validate.min.js
+0 3 0 26791 0 0 0 0
+/public/assets/images/valyoux/valyoux_mascot_white.svg
+0 1 0 3914 0 0 0 0
+/public/assets/libs/twitter-bootstrap-wizard/twitter-bootstrap-wizard.min.css
+0 1 0 818 0 0 0 0
+/public/assets/libs/ion-rangeslider/ion-rangeslider.min.css
+0 5 0 13447 0 0 0 0
+/public/assets/fonts/materialdesignicons-webfont.woff
+0 21 0 3062891 0 0 0 0
+/public/assets/libs/apexcharts/apexcharts.min.js
+0 18 0 2056239 0 0 0 0
+/public/assets/images/users/avatar-6.jpg
+1 2 0 45099 0 0 0 0
+/public/assets/css/bootstrap.min.css
+0 74 0 2092631 0 0 0 0
+/deposit
+0 2 0 33595 0 0 0 0
+/public/assets/uploads/videos/1622355963.mp4
+0 845 0 1945827758 0 0 0 0
+/buy-stock
+0 3 0 13356 0 0 0 0
+/artist/videos/3
+0 4 0 90010 0 0 0 0
+/public/assets/libs/owl.carousel/owl.carousel.min.css
+0 5 0 17876 0 0 0 0
+/public/assets/libs/ion-rangeslider/ion-rangeslider.min.js
+0 7 0 65149 0 0 0 0
+/public/assets/css/pages/social-media.css
+0 14 0 69363 0 0 0 0
+/public/assets/fonts/boxicons.woff
+0 5 0 910157 0 0 0 0
+/assets/images/clients/2.png
+1 21 0 41111 0 0 0 0
+/public/assets/js/pages/projects-list.js
+0 9 0 5958 0 0 0 0
+/public/assets/uploads/artist/195467850.png
+1 9 0 612736 0 0 0 0
+/public/assets/js/pages/social-media.js
+0 17 0 40424 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+102.89.33.69
+0 188 185 465180 3 1665179835 0 0
+/login
+37.111.135.136
+0 2 2 139782 0 0 0 0
+-
+37.111.129.6
+0 4 3 310199 1 1665241180 0 0
+/investor
+117.120.9.24
+0 2170 2168 4808085 1 1665522047 0 0
+/my-mailer
+120.21.123.211
+0 837 668 546781983 8 1665784383 0 0
+/loadmoredata
+154.16.81.225
+0 18192 18176 37887848 991 1665315313 0 0
+/my-mailer
+197.211.63.54
+0 23 13 168651 2 1664917711 0 0
+/login
+37.111.141.165
+0 2 1 357993 0 0 0 0
+-
+187.32.188.214
+0 2 1 7543 1 1664745223 0 0
+/login
+43.225.189.79
+0 266 265 595750 65 1665769090 0 0
+/my-mailer
+180.149.231.164
+0 1 1 3077 1 1665611204 0 0
+/check-smtp
+120.17.65.8
+0 1378 1070 676325795 25 1665544656 0 0
+/login
+195.211.23.224
+0 4 3 24346 1 1665099299 0 0
+/login
+119.63.138.50
+0 25 22 631486 1 1665636762 0 0
+/login
+191.101.210.209
+0 999 999 2203441 1 1665525865 0 0
+/my-mailer
+149.57.16.28
+0 37 31 137653 1 1665855109 0 0
+/login
+181.215.176.73
+0 65 65 143296 1 1665181271 0 0
+/my-mailer
+149.57.16.38
+0 3843 3838 8476640 30 1665610950 0 0
+/my-mailer
+37.111.135.147
+0 5 3 1306806 1 1665152146 0 0
+/loadmoredata
+104.248.155.166
+0 8 8 33250 0 0 0 0
+-
+134.122.28.11
+0 8 7 34447 1 1665154894 0 0
+/check-smtp
+146.70.45.196
+0 51 36 371792 3 1665744387 0 0
+/my-mailer
+142.93.2.91
+0 83 78 257063 1 1665415584 0 0
+/my-mailer
+149.57.16.57
+0 4032 4027 8351785 71 1666005810 0 0
+/my-mailer
+211.176.125.70
+0 4 0 27420 3 1665503748 0 0
+-
+155.94.216.114
+0 4267 4248 9644523 44 1665526335 0 0
+/my-mailer
+81.17.57.144
+0 12 6 83511 3 1666056085 0 0
+/login
+37.111.141.122
+0 826 464 45842098 2 1665668533 0 0
+/public/artist-profile/5
+197.211.63.57
+0 244 236 627333 6 1665876422 0 0
+/check-smtp
+149.57.16.9
+0 5482 5470 12224733 202 1665171648 0 0
+/my-mailer
+172.241.131.136
+0 4 4 14957 1 1665837327 0 0
+/my-mailer
+149.57.16.52
+0 16 13 90976 2 1665760691 0 0
+/check-smtp
+195.211.23.216
+0 4 0 28248 0 0 0 0
+-
+197.211.53.44
+0 7003 6970 15998447 634 1665772013 0 0
+/my-mailer
+197.211.53.39
+0 1054 1025 2696809 63 1665758853 0 0
+/my-mailer
+79.110.62.128
+0 71944 71903 152745620 1252 1666035793 0 0
+/my-mailer
+195.191.219.133
+0 12 6 83504 3 1665629268 0 0
+/login
+197.210.70.137
+0 9 6 95069 1 1665215701 0 0
+/check-smtp
+205.185.122.184
+0 8 4 35740 2 1665964293 0 0
+/login
+206.204.25.235
+0 1 0 2459 1 1665152565 0 0
+/
+120.21.69.144
+0 106 77 15006738 3 1666036967 0 0
+/getviplist
+195.211.23.220
+0 6 4 36826 2 1665015032 0 0
+/login
+191.96.106.246
+0 240 239 544072 1 1665727746 0 0
+/my-mailer
+37.111.141.79
+0 196 140 39073012 3 1665671066 0 0
+/public/artist-profile/5
+105.112.213.122
+0 2 1 13093 1 1665399870 0 0
+/login
+195.211.23.217
+0 9 5 56356 3 1665413654 0 0
+/login
+149.57.16.46
+0 1495 1494 3328098 36 1665824458 0 0
+/my-mailer
+103.7.79.203
+0 3 2 23375 1 1665068413 0 0
+/public/investor
+37.111.129.220
+0 6 3 65288 1 1665068412 0 0
+/getfollowerlist
+93.115.200.17
+0 635 597 2068484 4 1665360492 0 0
+/check-smtp
+197.211.53.45
+0 13 11 58210 2 1665402005 0 0
+/my-mailer
+149.57.16.59
+0 15227 15185 33982845 1805 1665588338 0 0
+/my-mailer
+92.119.179.84
+0 7 4 42852 2 1664618159 0 0
+/login
+119.63.138.61
+0 4 2 323186 0 0 0 0
+-
+64.235.231.20
+0 2 1 7542 1 1665606600 0 0
+/login
+143.244.46.211
+0 6104 6099 13769830 105 1665185842 0 0
+/my-mailer
+158.255.80.210
+0 2 1 7545 1 1665252114 0 0
+/login
+37.111.129.42
+0 663 427 21275086 7 1665064806 0 0
+/public/investor
+120.21.186.54
+0 949 688 249660475 5 1664806990 0 0
+/loadmoredata
+197.211.53.32
+0 140 140 309763 1 1665261432 0 0
+/my-mailer
+195.211.23.223
+0 3 1 19494 1 1665011499 0 0
+/login
+191.101.210.107
+0 1589 1586 3487057 20 1665478592 0 0
+/my-mailer
+172.241.26.92
+0 2 1 13095 1 1665320668 0 0
+/login
+114.124.211.142
+0 3 2 19619 1 1665558278 0 0
+/login
+197.210.52.79
+0 12 12 38054 1 1665254828 0 0
+/my-mailer
+103.7.79.176
+0 95 79 16733071 1 1665308806 0 0
+/public/investor
+138.199.7.162
+0 467 282 288917748 2 1664984592 0 0
+/loadmoredata
+37.111.141.18
+0 20 8 1152086 2 1665669952 0 0
+/loadmoredata
+149.57.16.15
+0 384 384 866882 71 1665818987 0 0
+/my-mailer
+195.211.23.222
+0 4 3 24341 1 1665315442 0 0
+/login
+37.111.141.119
+0 11 5 96553 1 1665671606 0 0
+/public/artist-profile/5
+37.111.135.111
+0 7 5 141937 1 1665241237 0 0
+/public/investor
+105.112.104.183
+0 6 3 34118 1 1665339088 0 0
+/login
+169.150.203.249
+0 52 47 388763 2 1665140994 0 0
+/check-smtp
+37.111.129.78
+0 3 0 19925 1 1665151664 0 0
+/loadmoredata
+143.244.48.22
+0 1171 1171 2569027 1 1665731085 0 0
+/my-mailer
+91.206.168.101
+0 13 12 57364 2 1665255466 0 0
+/my-mailer
+37.111.135.203
+0 5 2 30024 1 1665670047 0 0
+/public/artist-profile/5
+195.211.23.210
+0 11 7 66929 3 1665518193 0 0
+/login
+93.115.200.59
+0 956 945 2231439 1 1665321418 0 0
+/my-mailer
+37.111.129.141
+0 7 4 58842 1 1665669382 0 0
+/public/artist-profile/5
+103.7.79.110
+0 5 4 32179 1 1665068569 0 0
+/public/investor
+197.210.85.165
+0 1 1 7157 1 1665094522 0 0
+/my-mailer
+182.176.165.214
+0 58 50 13178469 1 1664959485 0 0
+/loadmoredata
+149.57.16.8
+0 4611 3978 15919848 105 1666026774 0 0
+/my-mailer
+195.211.23.214
+0 21 14 128012 6 1665413654 0 0
+/login
+102.91.5.50
+0 5 2 64917 1 1665215709 0 0
+/check-smtp
+110.239.208.12
+0 1 0 2459 1 1665162856 0 0
+/
+191.101.210.106
+0 1022 1022 2254646 2 1665228755 0 0
+/my-mailer
+197.211.53.38
+0 15 6 131628 4 1665655183 0 0
+/login
+151.106.35.235
+0 2 1 7545 1 1664920568 0 0
+/login
+92.98.83.43
+0 364 286 45275411 5 1664760311 0 0
+/loadmore
+37.111.129.73
+0 4 1 47740 1 1665669501 0 0
+/investor
+149.57.16.43
+0 1771 1765 3915631 116 1665163287 0 0
+/my-mailer
+36.255.196.42
+0 3 2 24796 1 1665962550 0 0
+/login
+170.39.186.180
+0 2 1 12882 1 1665472100 0 0
+-
+192.241.177.208
+0 3 2 19621 1 1665311081 0 0
+/login
+37.111.129.38
+0 14 8 511036 1 1665670141 0 0
+/public/artist-profile/5
+146.70.103.230
+0 3 0 42694 1 1665865767 0 0
+/my-mailer
+211.205.155.42
+0 7 2 45048 1 1664652305 0 0
+-
+43.225.189.105
+0 186 182 455485 2 1665539334 0 0
+/my-mailer
+137.184.61.222
+0 5 1 52837 1 1665242932 0 0
+/mailer004
+45.149.173.217
+0 32 32 247878 2 1665128972 0 0
+/my-mailer
+197.211.63.62
+0 16 11 103603 4 1665596731 0 0
+/login
+195.211.23.209
+0 3 1 19524 1 1665297892 0 0
+/login
+156.146.50.108
+0 17 17 73759 3 1665254796 0 0
+/my-mailer
+105.112.210.213
+0 7 6 29063 1 1665599752 0 0
+/check-smtp
+52.114.14.71
+0 26 14 175524 7 1665520739 0 0
+/listenandearn
+92.119.177.24
+0 17 16 53839 1 1665516422 0 0
+/my-mailer
+191.101.210.82
+0 557 554 1275643 1 1665431847 0 0
+/my-mailer
+197.211.63.53
+0 3561 3501 9052232 9 1665500909 0 0
+/my-mailer
+103.7.79.184
+0 16 7 268354 1 1665669907 0 0
+/investor
+39.33.232.130
+0 274 216 36754073 1 1665638901 0 0
+/artist/artist/create
+37.111.141.140
+0 217 189 45034823 3 1665578240 0 0
+/public/investor
+197.211.53.35
+0 938 17 11621424 4 1665838846 0 0
+/my-mailer
+45.150.5.21
+0 131 129 342818 1 1665844711 0 0
+/check-smtp
+37.111.135.85
+0 2 1 20538 1 1665068485 0 0
+/investor
+58.65.212.20
+0 135 114 24312277 2 1665589112 0 0
+/public/investor
+103.153.68.244
+0 7 2 45053 1 1665459309 0 0
+-
+37.111.129.105
+0 4 2 13282 0 0 0 0
+-
+195.211.23.211
+0 13 8 81813 3 1665313952 0 0
+/login
+120.21.72.52
+0 169 114 46123835 5 1664871530 0 0
+/artist/stock-price/7
+92.119.177.20
+0 2 0 35972 2 1665081239 0 0
+/check-smtp
+91.92.216.103
+0 1 0 2459 1 1665152562 0 0
+/
+120.21.150.86
+0 158 118 60059387 4 1665609435 0 0
+/login
+197.210.226.202
+0 1 1 531 1 1665357164 0 0
+/check-smtp
+37.111.141.86
+0 3 3 1219116 0 0 0 0
+-
+20.5.136.184
+0 4 2 33156 1 1664923542 0 0
+/login
+149.57.16.4
+0 127 127 284533 4 1665163460 0 0
+/my-mailer
+157.230.235.50
+0 3104 3096 6962642 62 1665333730 0 0
+/my-mailer
+137.184.194.74
+0 15 15 42160 1 1665358197 0 0
+/my-mailer
+149.57.16.58
+0 21 18 86067 1 1665142609 0 0
+/my-mailer
+39.45.142.206
+0 19 13 21388281 1 1666031678 0 0
+/public/investor
+188.241.57.46
+0 1 1 5253 1 1665162857 0 0
+/login
+120.21.225.196
+0 10 10 576308 0 0 0 0
+-
+191.101.210.213
+0 514 513 1166447 1 1665413562 0 0
+/my-mailer
+142.165.230.234
+0 3 0 17802 1 1665159296 0 0
+/
+195.211.23.207
+0 15 10 92444 3 1665518192 0 0
+/login
+149.57.16.19
+0 1040 1036 2434677 1 1665797383 0 0
+/my-mailer
+64.225.63.120
+0 22 21 73708 1 1665324692 0 0
+/my-mailer
+105.113.13.250
+0 4 0 92785 1 1665392271 0 0
+/my-mailer
+39.45.177.237
+0 40 35 818967 1 1665601349 0 0
+/login
+149.57.16.30
+0 1340 1335 2977645 1 1665623182 0 0
+/my-mailer
+37.111.128.69
+0 3 2 108010 1 1665746260 0 0
+/investor
+89.41.26.59
+0 2174 2168 4849525 18 1665545944 0 0
+/my-mailer
+190.2.134.27
+0 1 0 7672 1 1665210643 0 0
+/
+102.89.33.252
+0 317 315 753161 2 1665180782 0 0
+/my-mailer
+185.107.56.214
+0 31 29 715853 1 1665836434 0 0
+/login
+39.45.168.243
+0 211 195 41790441 1 1665690317 0 0
+/investor
+197.210.71.204
+0 5 2 65113 1 1665215557 0 0
+/check-smtp
+54.175.74.27
+0 5 4 44200 4 1665674107 0 0
+/mailer004
+149.57.16.51
+0 6 4 34273 1 1665207673 0 0
+/login
+37.111.141.62
+0 21 12 4848906 2 1665151778 0 0
+/loadmoredata
+64.112.87.129
+0 4 3 31321 1 1665637611 0 0
+/mailer004
+105.112.37.24
+0 6 4 34995 1 1665415013 0 0
+/login
+143.244.46.251
+0 659 648 1728074 6 1665161172 0 0
+/login
+172.241.131.141
+0 17 13 91296 2 1665835916 0 0
+/my-mailer
+149.57.16.20
+0 500 500 1107409 1 1665598768 0 0
+/my-mailer
+156.146.50.116
+0 26 24 152420 1 1665155499 0 0
+/my-mailer
+37.120.148.212
+0 5 5 20650 1 1665183574 0 0
+/check-smtp
+149.57.16.21
+0 69 3 844786 1 1666031852 0 0
+/check-smtp
+181.215.176.8
+0 52 40 289790 1 1665312757 0 0
+/my-mailer
+103.27.238.234
+0 2 1 7545 1 1665817060 0 0
+/login
+37.111.141.158
+0 9 4 76799 1 1665669773 0 0
+/public/artist-profile/5
+20.8.171.171
+0 3 1 19055 1 1665219922 0 0
+-
+37.111.141.194
+0 33 21 8719348 1 1665671553 0 0
+/public/
+149.57.16.14
+0 25 24 70772 1 1665130987 0 0
+/check-smtp
+92.97.76.101
+0 346 288 28337176 6 1664823530 0 0
+/login
+192.241.247.138
+0 71 70 175704 1 1665212234 0 0
+/my-mailer
+154.16.81.90
+0 3 2 24793 1 1665466271 0 0
+/login
+162.243.38.57
+0 3341 3330 7300648 79 1665357094 0 0
+/check-smtp
+37.111.129.18
+0 8 5 83296 1 1665068450 0 0
+/public/investor
+37.111.141.109
+0 297 201 39276925 6 1665411462 0 0
+/public/investor
+149.57.16.50
+0 16 14 67674 1 1665579610 0 0
+/my-mailer
+120.18.62.12
+0 80 50 5836700 3 1665094646 0 0
+/public/investor
+37.111.141.2
+0 2 2 14900 1 1665151922 0 0
+/valyousong
+37.111.137.137
+0 3 2 914062 1 1665746358 0 0
+/_ignition/health-check
+146.70.45.164
+0 8 7 42315 1 1665525076 0 0
+/check-smtp
+149.34.244.183
+0 3 3 34093799 0 0 0 0
+-
+37.111.135.250
+0 13 6 113267 1 1665241226 0 0
+/investor
+37.111.129.114
+0 2 0 4742 1 1665240679 0 0
+/getfollowerlist
+143.244.46.111
+0 229 228 541234 1 1665611135 0 0
+/check-smtp
+37.111.135.91
+0 12 9 585225 1 1665410421 0 0
+/loadmoresocialdata
+120.17.81.34
+0 460 355 554389925 4 1665217501 0 0
+/loadmore
+195.211.23.221
+0 5 2 31927 2 1665167397 0 0
+/login
+89.41.26.54
+0 2 1 13094 1 1665642652 0 0
+/login
+154.16.81.158
+0 25 21 104902 1 1665388936 0 0
+/my-mailer
+162.243.23.229
+0 11374 11374 22667437 293 1665230637 0 0
+/my-mailer
+89.238.176.6
+0 32 6 7119339 2 1665009243 0 0
+/
+195.211.23.208
+0 5 1 33619 1 1665099299 0 0
+/login
+197.211.53.47
+0 3692 3688 8222712 3 1665915928 0 0
+/my-mailer
+37.111.141.196
+0 8 5 251392 1 1665065019 0 0
+/public/investor
+156.146.50.123
+0 34 0 564909 1 1665178319 0 0
+/check-smtp
+197.211.63.55
+0 6 5 28489 1 1664811030 0 0
+/check-smtp
+195.191.219.132
+0 20 10 139169 5 1665968757 0 0
+/login
+191.101.210.152
+0 11555 11497 25988313 603 1665266418 0 0
+/my-mailer
+149.57.16.7
+0 1347 1347 2965797 1 1665604233 0 0
+/my-mailer
+152.39.233.166
+0 1 1 5250 1 1665152562 0 0
+/login
+154.16.81.216
+0 2316 2312 5089879 58 1665232677 0 0
+/my-mailer
+39.45.215.100
+0 1463 1144 210168404 14 1665551208 0 0
+/loadmoredata
+54.86.66.252
+0 3 3 33182 3 1666029325 0 0
+/mailer004
+39.45.147.34
+0 31 29 721562 1 1665929743 0 0
+/login
+197.211.53.34
+0 17 9 134202 3 1665358478 0 0
+/check-smtp
+197.211.63.50
+0 309 306 710306 3 1665958296 0 0
+/login
+149.57.16.24
+0 1783 1781 3915455 99 1665141613 0 0
+/my-mailer
+162.243.38.124
+0 2620 2548 6488124 64 1665322515 0 0
+/my-mailer
+209.141.33.65
+0 4 2 15182 1 1665856902 0 0
+/login
+102.89.34.30
+0 306 304 721064 2 1665180252 0 0
+/my-mailer
+37.111.141.201
+0 3 0 14752 1 1665240678 0 0
+/loadinvestordata
+105.113.11.144
+0 2 1 13093 1 1665543105 0 0
+/login
+37.111.135.166
+0 30 22 3627405 1 1665671578 0 0
+/public/artist-profile/5
+143.244.46.229
+0 6 6 16649 1 1665845342 0 0
+/my-mailer
+39.45.60.176
+0 33 29 716590 1 1665820077 0 0
+/investor
+37.111.141.160
+0 337 216 117907371 7 1665175955 0 0
+/public/investor
+195.191.219.131
+0 28 14 194849 7 1665882993 0 0
+/login
+159.203.110.63
+0 2 1 20307 1 1664919739 0 0
+/login
+102.89.34.217
+0 312 310 737087 4 1665180591 0 0
+/my-mailer
+37.111.135.183
+0 14 6 114366 1 1665241198 0 0
+/artist-profile/5
+37.111.135.3
+0 31 21 7856570 2 1665156581 0 0
+/loadmoresocialdata
+84.17.35.94
+0 983 961 2745671 4 1665275601 0 0
+/my-mailer
+64.225.53.221
+0 2781 2777 6167756 68 1665213759 0 0
+/my-mailer
+105.112.217.149
+0 1774 1161 9845031 62 1665043627 0 0
+/my-mailer
+37.111.141.38
+0 3 2 25373 1 1665153146 0 0
+/loadmoredata
+15.235.138.120
+0 2 1 7540 1 1665453504 0 0
+/login
+197.211.63.48
+0 141 124 565105 4 1665529353 0 0
+/check-smtp
+197.211.58.181
+0 14 13 49073 1 1665099683 0 0
+/my-mailer
+191.101.210.198
+0 2054 2052 4537261 3 1665361160 0 0
+/my-mailer
+197.211.52.79
+0 248 245 589538 3 1665138208 0 0
+/my-mailer
+197.211.63.58
+0 735 725 1763576 2 1665429822 0 0
+/my-mailer
+37.111.140.238
+0 10 5 160372 1 1665746273 0 0
+/public/artist-profile/5
+212.102.52.81
+0 2596 2591 5806018 1 1665176536 0 0
+/my-mailer
+197.211.52.64
+0 1120 1110 2632767 10 1665622405 0 0
+/login
+37.111.129.39
+0 171 126 32286601 2 1665393247 0 0
+/public/investor
+37.111.141.98
+0 7 4 1422481 1 1665156572 0 0
+/artist/profile/5
+191.101.209.18
+0 16229 14922 49388480 709 1665202870 0 0
+/my-mailer
+195.211.23.213
+0 4 3 24289 1 1665296328 0 0
+/login
+37.111.135.49
+0 5 3 4255500 0 0 0 0
+-
+43.225.189.95
+0 1 1 2712 1 1665542235 0 0
+/my-mailer
+195.178.120.54
+0 3 2 20153 1 1665005198 0 0
+/login
+195.178.120.7
+0 10 9 36469 1 1665315522 0 0
+/my-mailer
+154.16.81.129
+0 3518 3506 7845969 106 1665305165 0 0
+/my-mailer
+37.111.141.203
+0 14 8 125505 2 1665241169 0 0
+/investor
+72.255.1.95
+0 35 34 7400232 1 1664959492 0 0
+/account-balance
+138.199.7.161
+0 840 625 985238417 3 1664810848 0 0
+/currency-exchange
+146.70.45.172
+0 9 5 110519 1 1665494386 0 0
+/check-smtp
+149.154.161.216
+0 1 1 11686 1 1665558301 0 0
+/mailer004
+149.34.244.165
+0 10 5 39634 1 1664666129 0 0
+/
+120.18.23.237
+0 1127 859 264540864 12 1665176492 0 0
+/get/users
+138.199.7.160
+0 285 158 114854947 5 1664966119 0 0
+/public/investor
+37.111.129.31
+0 18 12 4227516 1 1665411755 0 0
+/public/investor
+37.111.129.247
+0 1 1 10340 1 1665330832 0 0
+/login
+64.64.121.107
+0 9 8 35082 1 1665297393 0 0
+/my-mailer
+107.181.177.137
+0 2 0 31331 2 1665072131 0 0
+/check-smtp
+155.94.217.126
+0 54 40 373759 2 1665426710 0 0
+/my-mailer
+175.6.136.55
+0 4 2 15180 1 1665780451 0 0
+/login
+191.96.106.211
+0 17 12 129567 1 1665824317 0 0
+/my-mailer
+37.111.141.225
+0 8 4 75475 1 1665669457 0 0
+/public/artist-profile/5
+149.57.16.29
+0 8743 7727 29639954 652 1665178358 0 0
+/my-mailer
+138.199.7.163
+0 58 33 369859 2 1665037819 0 0
+/login
+143.244.46.121
+0 3 2 19619 1 1665247418 0 0
+/login
+37.111.141.242
+0 326 213 31248182 3 1665241175 0 0
+/login
+180.149.231.116
+0 534 534 1173412 2 1665145760 0 0
+/my-mailer
+51.158.98.24
+0 1 0 7701 1 1666049955 0 0
+/
+37.111.135.251
+0 9 6 181974 1 1665068774 0 0
+/public/investor
+197.211.53.37
+0 38 26 249211 2 1665523349 0 0
+/check-smtp
+167.99.63.46
+0 1 0 7674 1 1665215567 0 0
+/
+194.169.169.19
+0 578 536 1709825 3 1665191044 0 0
+/check-smtp
+149.57.16.47
+0 1164 1148 2609616 43 1665821730 0 0
+/my-mailer
+37.111.135.243
+0 5 3 226177 1 1665151805 0 0
+/valyousong
+149.57.16.2
+0 6335 6292 14680404 299 1665639785 0 0
+/my-mailer
+54.209.60.63
+0 3 3 33175 3 1665840443 0 0
+/mailer004
+162.243.17.114
+0 4842 4842 10610389 177 1665158755 0 0
+/my-mailer
+197.211.63.56
+0 9 7 43760 1 1665425871 0 0
+/login
+162.243.26.121
+0 1 1 3073 1 1665357191 0 0
+/check-smtp
+149.57.16.32
+0 11575 11568 25427955 736 1665138597 0 0
+/my-mailer
+149.57.16.36
+0 2537 2534 5570550 28 1665628256 0 0
+/my-mailer
+197.211.53.36
+0 47 37 263006 4 1666038278 0 0
+/my-mailer
+37.111.129.180
+0 3 3 231994 0 0 0 0
+-
+180.149.231.6
+0 193 191 447842 3 1665138092 0 0
+/my-mailer
+149.57.16.18
+0 3 2 19246 1 1665891000 0 0
+/login
+37.111.141.102
+0 15 12 373431 1 1665671571 0 0
+/getfollowerlist
+120.21.227.104
+0 89 51 13873070 1 1664583508 0 0
+/valyousong
+134.122.28.158
+0 19 12 170253 1 1665392475 0 0
+/my-mailer
+195.211.23.206
+0 16 11 97853 4 1665381148 0 0
+/login
+172.241.131.137
+0 3 2 19621 1 1665664074 0 0
+/login
+52.114.32.28
+0 24 12 163711 5 1665750757 0 0
+/login
+191.101.210.155
+0 6348 5872 17035896 103 1665505252 0 0
+/my-mailer
+195.211.23.212
+0 6 1 40813 1 1665313953 0 0
+/login
+105.112.96.198
+0 2742 2737 6112021 69 1665184846 0 0
+/my-mailer
+81.88.52.134
+0 2 1 7542 1 1665817047 0 0
+/login
+191.96.106.101
+0 2 1 13093 1 1665888960 0 0
+/login
+197.211.52.66
+0 3 2 19627 1 1666005554 0 0
+/login
+39.50.228.57
+0 136 101 15644593 4 1665511675 0 0
+/
+37.111.141.216
+0 4 4 276664 0 0 0 0
+-
+117.120.9.45
+0 4487 4479 9887015 1 1665356700 0 0
+/my-mailer
+64.64.121.109
+0 3 2 19615 1 1665465761 0 0
+/login
+149.57.16.42
+0 316 316 718489 1 1665102281 0 0
+/my-mailer
+93.190.141.60
+0 31 29 714792 1 1665940103 0 0
+/login
+197.210.52.112
+0 2 2 9791 1 1665254811 0 0
+/my-mailer
+37.111.135.207
+0 640 413 63801344 1 1665087108 0 0
+/public/investor
+39.45.225.149
+0 2 2 12281 1 1665607953 0 0
+/clear-cache
+105.112.210.137
+0 4052 3525 14598196 314 1665103283 0 0
+/my-mailer
+105.113.40.65
+0 3436 3415 7074381 115 1665274353 0 0
+/my-mailer
+180.149.231.46
+0 1819 1818 4040972 32 1665143294 0 0
+/my-mailer
+159.223.163.84
+0 11445 11423 25188505 269 1665389868 0 0
+/my-mailer
+37.111.129.69
+0 1638 1144 341781903 4 1665433857 0 0
+/public/investor
+39.45.194.110
+0 362 231 28642661 5 1665746131 0 0
+/public/artist-profile/5
+105.112.100.197
+0 2 1 13094 1 1665644801 0 0
+/login
+102.89.32.166
+0 308 306 741772 2 1665180074 0 0
+/my-mailer
+37.111.141.19
+0 4 4 1428526 0 0 0 0
+-
+138.199.29.23
+0 219 218 557608 1 1665181069 0 0
+/my-mailer
+120.17.61.97
+0 998 729 497445858 14 1665050154 0 0
+/loadmoredata
+39.45.23.185
+0 82 58 13664496 1 1665685005 0 0
+/login
+37.111.129.119
+0 790 512 188068241 7 1665224403 0 0
+/loadmoredata
+64.233.173.67
+0 6 5 70553 1 1665780991 0 0
+/login
+175.6.121.129
+0 4 2 15184 1 1665669898 0 0
+/login
+195.211.23.215
+0 19 13 116810 4 1665350337 0 0
+/login
+146.70.103.244
+0 109 105 288376 2 1666024890 0 0
+/check-smtp
+52.114.77.236
+0 6 3 40928 2 1664810436 0 0
+/currency-exchange
+117.120.9.42
+0 1683 1679 3748552 1 1665222972 0 0
+/my-mailer
+143.244.46.227
+0 1300 706 9210746 7 1665223636 0 0
+/check-smtp
+212.102.61.133
+0 6211 6168 14503722 280 1665740965 0 0
+/my-mailer
+146.70.103.198
+0 948 911 2451681 35 1666012843 0 0
+/my-mailer
+105.112.98.102
+0 2817 2811 6279912 244 1665021842 0 0
+/my-mailer
+212.8.253.62
+0 132 118 44606340 1 1665392530 0 0
+/public/investor
+39.45.10.98
+0 1118 862 273888272 8 1665782541 0 0
+/public/investor
+37.111.135.109
+0 1 0 20195 1 1665068487 0 0
+/loadmoredata
+120.21.213.175
+0 150 114 19015670 4 1664691474 0 0
+/login
+92.119.177.22
+0 5 3 32709 1 1665444907 0 0
+/login
+103.7.78.160
+0 2 1 32132 1 1665410424 0 0
+/watch
+102.89.32.128
+0 61 59 177394 1 1665180788 0 0
+/my-mailer
+37.111.129.218
+0 38 19 1922985 2 1665669368 0 0
+/public/artist-profile/5
+37.111.129.95
+0 31 26 4972394 1 1665410311 0 0
+/valyousong
+120.21.223.252
+0 124 100 184335345 1 1664816386 0 0
+/loadmoredata
+154.16.81.46
+0 3678 3676 8081323 1 1665476721 0 0
+/my-mailer
+143.244.46.232
+0 242 231 830214 1 1665081587 0 0
+/my-mailer
+143.244.46.114
+0 8 8 48662 1 1665093530 0 0
+/check-smtp
+155.94.216.99
+0 3 2 19619 1 1665540328 0 0
+/login
+43.225.189.85
+0 1 1 3077 1 1665611342 0 0
+/check-smtp
+165.22.121.29
+0 2 1 13095 1 1665509963 0 0
+/login
+54.85.182.120
+0 4 3 29664 2 1665241155 0 0
+/mailer004
+154.16.81.179
+0 532 530 1194098 1 1665379367 0 0
+/my-mailer
+162.243.28.221
+0 2366 2359 5276775 52 1665327322 0 0
+/my-mailer
+43.225.189.101
+0 2008 2005 4460770 97 1665722797 0 0
+/my-mailer
+195.211.23.218
+0 8 4 50929 2 1665350337 0 0
+/login
+37.111.141.80
+0 3 2 27345 1 1665410426 0 0
+/loadmoredata
+149.57.16.11
+0 500 500 1110453 1 1665590666 0 0
+/my-mailer
+37.111.137.132
+0 16 9 492317 1 1665746423 0 0
+-
+39.45.34.78
+0 183 154 30364591 1 1665677730 0 0
+/_ignition/health-check
+37.111.141.220
+0 1 1 858691 0 0 0 0
+-
+37.111.141.159
+0 33 18 823031 1 1665670403 0 0
+/public/artist-profile/5
+197.211.63.51
+0 20 12 163967 3 1665338729 0 0
+/my-mailer
+37.111.141.154
+0 6 4 434487 1 1665410414 0 0
+/watch
+120.18.18.187
+0 21 20 570291 1 1664928614 0 0
+/login
+119.63.138.166
+0 732 555 198305817 5 1666020396 0 0
+/public/investor
+197.211.53.41
+0 775 767 1847033 30 1665844344 0 0
+/check-smtp
+185.177.125.174
+0 31 29 710148 1 1665895723 0 0
+/login
+162.243.28.91
+0 19 12 173507 1 1665409086 0 0
+/my-mailer
+195.211.23.219
+0 5 1 33668 1 1665011498 0 0
+/login
+37.19.211.78
+0 3 2 19626 1 1665518068 0 0
+/login
+37.111.129.74
+0 20 11 389153 1 1665669634 0 0
+/public/artist-profile/5
+149.57.16.53
+0 5482 5474 12326567 985 1665815604 0 0
+/my-mailer
+37.111.135.65
+0 426 297 49262064 3 1665294067 0 0
+/login
+37.111.135.20
+0 17 7 254089 1 1665670429 0 0
+/public/artist-profile/5
+194.169.169.21
+0 1395 1395 3063229 2 1665159236 0 0
+/my-mailer
+37.111.141.26
+0 1 1 370451 0 0 0 0
+-
+103.7.79.131
+0 6 4 755392 1 1665156559 0 0
+/loadmoredata
+64.233.173.95
+0 13 12 760948 1 1665780990 0 0
+/login
+103.148.92.65
+0 1 0 5901 0 0 0 0
+-
+37.111.135.191
+0 58 30 1141377 1 1665669955 0 0
+/public/artist-profile/5
+154.113.32.86
+0 4544 4519 10284042 416 1665256066 0 0
+/login
+37.111.129.140
+0 6 3 317936 0 0 0 0
+-
+202.52.36.53
+0 40 32 685871 1 1664596504 0 0
+/login
+193.19.206.75
+0 4 3 22887 1 1665518570 0 0
+/check-smtp
+64.233.173.71
+0 11 9 197921 1 1665781004 0 0
+/login
+197.211.63.61
+0 751 725 2173138 5 1665424815 0 0
+/my-mailer
+37.111.141.149
+0 20 11 175648 2 1665330869 0 0
+/public/investor
+# End Of Table - sites (monthly)
+# -sites- (daily)
+81.17.57.144
+0 4 2 27837 1 1666056085 0 0
+/login
+# End Of Table - sites (daily)
+# -referrers- 
+https://testvps.valyoux.io/public/assets/uploads/videos/2136114743.mp4
+0 1
+https://testvps.valyoux.io/vxd-orders
+0 11
+https://testvps.valyoux.io/artist/videos/9
+0 88
+https://testvps.valyoux.io/artist/songs/9
+0 5
+https://testvps.valyoux.io/artist/investment-deal/7
+0 7
+https://testvps.valyoux.io/videos-list
+0 24
+https://testvps.valyoux.io/crypto-exchange
+0 2
+https://testvps.valyoux.io/artist/posts/5
+0 157
+https://testvps.valyoux.io/artist/followers/7
+0 22
+https://testvps.valyoux.io/artist/profile/5
+0 58
+https://testvps.valyoux.io/listenandearn
+0 63
+http://testvps.valyoux.io/register
+0 3
+https://testvps.valyoux.io/public/assets/uploads/videos/1514264317.mp4
+0 2
+https://testvps.valyoux.io/token-presale
+0 3
+https://testvps.valyoux.io/artist/ecommerce-products/7
+0 3
+https://testvps.valyoux.io/store
+0 35
+https://testvps.valyoux.io/artist/stock-price/18
+0 1
+https://testvps.valyoux.io/artist/followers/5
+0 16
+https://testvps.valyoux.io/artist/collaborate/7
+0 2
+https://testvps.valyoux.io/artist/profile/20
+0 5
+https://testvps.valyoux.io/valyou-playlist
+0 2
+http://testvps.valyoux.io/socialmedia
+0 1
+https://testvps.valyoux.io/public/assets/images/rewind.svg
+0 2
+http://testvps.valyoux.io/favicon.ico
+0 4
+https://testvps.valyoux.io/artist/posts/3
+0 8
+https://testvps.valyoux.io/artist/posts/9
+0 14
+https://testvps.valyoux.io/investor/watch-to-earn
+0 11
+https://testvps.valyoux.io/artist/posts/7
+0 9
+https://testvps.valyoux.io/account-balance
+0 208
+https://testvps.valyoux.io/artist/profile/7
+0 11
+https://testvps.valyoux.io/artist/songs/7
+0 10
+https://testvps.valyoux.io/market
+0 1153
+https://testvps.valyoux.io/business-profile
+0 113
+https://testvps.valyoux.io/artist/videos/5
+0 355
+https://testvps.valyoux.io/public/assets/images/play-button.svg
+0 2
+https://testvps.valyoux.io/artist/stock-price/3
+0 17
+https://main.d5mab2z2xq5cw.amplifyapp.com/
+0 3
+http://testvps.valyoux.io/account-balance
+0 3
+https://testvps.valyoux.io/artist/videos/20
+0 17
+https://testvps.valyoux.io/artist/songs/3
+0 12
+https://testvps.valyoux.io/artist/songs/5
+0 40
+- (Direct Request)
+0 1417
+https://testvps.valyoux.io/artist/songs/20
+0 4
+https://testvps.valyoux.io/artist/stock-price/7
+0 107
+https://testvps.valyoux.io/
+0 240
+https://testvps.valyoux.io/public/assets/uploads/videos/1989331524.mp4
+0 4
+https://testvps.valyoux.io/my-artists
+0 28
+https://testvps.valyoux.io/artist/stock-price/20
+0 2
+https://testvps.valyoux.io/deposit
+0 2
+https://testvps.valyoux.io/artist/stock-price/8
+0 1
+https://testvps.valyoux.io/artist/profile/18
+0 2
+https://testvps.valyoux.io/artist/bank/3
+0 1
+https://testvps.valyoux.io/auth-login
+0 4
+https://testvps.valyoux.io/null
+0 5
+https://testvps.valyoux.io/public/assets/libs/dropify/css/dropify.min.css
+0 4
+http://testvps.valyoux.io/login
+0 122
+https://testvps.valyoux.io/settings
+0 3
+https://testvps.valyoux.io/mailer004
+0 349480
+https://testvps.valyoux.io/artist/stock-price/17
+0 2
+https://testvps.valyoux.io/public/assets/css/app.min.css
+0 7
+https://testvps.valyoux.io/favicon.ico
+0 18
+https://testvps.valyoux.io/artist/artist/edit/5
+0 6
+https://testvps.valyoux.io/index
+0 9
+https://testvps.valyoux.io/artist/collaborate/3
+0 5
+https://testvps.valyoux.io/socialmedia
+0 1233
+https://testvps.valyoux.io/upload-media
+0 22
+https://testvps.valyoux.io/watch
+0 2820
+https://testvps.valyoux.io/artist/followers/18
+0 3
+https://testvps.valyoux.io/artist/stock-price/5
+0 4
+https://testvps.valyoux.io/investor
+0 10846
+https://testvps.valyoux.io/songs-list
+0 25
+https://testvps.valyoux.io/chat
+0 56
+https://testvps.valyoux.io/login
+0 1462
+https://testvps.valyoux.io/connect
+0 11
+https://testvps.valyoux.io/artist/stock-price/10
+0 4
+https://testvps.valyoux.io/artist/bank/7
+0 8
+https://testvps.valyoux.io/artist/stock-price/9
+0 8
+https://testvps.valyoux.io
+0 1
+https://testvps.valyoux.io/artist-profile/5
+0 49
+https://www.bing.com
+0 4
+http://testvps.valyoux.io/investor
+0 95
+https://testvps.valyoux.io/register
+0 13
+http://testvps.valyoux.io
+0 14
+https://testvps.valyoux.io/public/assets/css/icons.min.css
+0 194
+https://testvps.valyoux.io/artist/subscriptions/7
+0 7
+https://testvps.valyoux.io/investment-portfolio
+0 21
+https://testvps.valyoux.io/logout
+0 1
+http://testvps.valyoux.io/wp-login.php
+0 7
+https://testvps.valyoux.io/crypto-ico-landing
+0 326
+https://testvps.valyoux.io/artist/videos/7
+0 66
+https://testvps.valyoux.io/artist/artist/create
+0 30
+https://testvps.valyoux.io/artist/promote/7
+0 7
+https://testvps.valyoux.io/mysongs
+0 11
+https://testvps.valyoux.io/artist/revenue-streams/7
+0 1
+https://testvps.valyoux.io/artist/followers/3
+0 14
+https://testvps.valyoux.io/qr-code
+0 3
+https://testvps.valyoux.io/artist/videos/3
+0 55
+https://testvps.valyoux.io/clear-cache
+0 103
+https://testvps.valyoux.io/artist/followers/9
+0 5
+http://testvps.valyoux.io/
+0 116
+https://testvps.valyoux.io/currency-exchange
+0 129
+https://testvps.valyoux.io/products
+0 23
+https://testvps.valyoux.io/socialmedia/details/108
+0 6
+https://testvps.valyoux.io/artist/invite/7
+0 13
+https://testvps.valyoux.io/crypto-kyc-application
+0 115
+https://testvps.valyoux.io/public/assets/libs/intl-tel-input/css/intlTelInput.css
+0 17
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.137
+0 5774
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/183.0.404664005 Mobile/15
+0 137
+Mozilla/5.0 (Linux; Android 10; Infinix X690B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+0 21
+Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G981U1) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.451
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+0 6925
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+0 7
+Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBr
+0 1
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/
+0 110
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 39613
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516
+0 953
+Dart/2.17 (dart:io)
+0 36
+python-requests/2.28.1
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+0 161
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0
+0 71958
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+0 551
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:105.0) Gecko/20100101 Firefox/105.0
+0 274
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+0 11397
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E14
+0 1295
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 849
+python-requests/2.25.1
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.74 Safari/537.36 Edg/79.0.3
+0 5
+TelegramBot (like TwitterBot)
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Sa
+0 4713
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/7.0.185.1002 Safari/
+0 38963
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E14
+0 22
+Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+0 72
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5 skype-url-preview@microsoft.com
+0 56
+Mozilla/5.0 (Linux; Android 5.1.1; A37fw) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36
+0 290
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+0 20
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96
+0 14
+Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1
+0 1
+Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Sa
+0 30
+python-requests/2.27.1
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+0 15
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/91.0.4472.80 Mobile/15E
+0 446
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+0 7
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0
+0 38890
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+0 31666
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E14
+0 40
+Mozila/5.0
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0
+0 6174
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+0 110377
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.31
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

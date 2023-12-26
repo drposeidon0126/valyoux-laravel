@@ -1,0 +1,686 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:100&text=0123456789:);
+/**
+ * SoundManager 2 + useFlashBlock
+ * ------------------------------
+ * Flash positioning and flashblock / clicktoflash handling
+ */
+
+#sm2-container {
+ /**
+  * where the SM2 flash movie goes. by default, relative container.
+  * set relative or absolute here, and don't touch it later or bad things will happen (see below comments.)
+  */
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ overflow: hidden;
+ /* screw IE 6, just make it display nice */
+ _overflow: hidden;
+}
+
+#sm2-container object,
+#sm2-container embed {
+ /**
+  * the actual SWF movie bit.
+  * important: The SWF needs to be able to be moved off-screen without display: or position: changes.
+  * changing display: or position: or overflow: here or on parent can cause SWF reload or other weird issues after unblock
+  * e.g., SM2 starts but strange errors, no whileplaying() etc.
+  */
+ width: 48px;
+ height: 48px;
+ /* some flash blockers may also respect this rule */
+ max-width: 48px;
+ max-height: 48px;
+}
+
+#sm2-container.swf_timedout {
+ /* expand to show the timed-out SWF content */
+ position: relative;
+ width: 48px;
+ height: 48px;
+}
+
+#sm2-container.swf_timedout,
+#sm2-container.swf_timedout object,
+#sm2-container.swf_timedout embed {
+ /**
+  * when SM2 didn't start normally, time-out case. flash blocked, missing SWF, no flash?
+  * 48px square flash placeholder is typically used by blockers.
+  */
+ min-width: 48px;
+ min-height: 48px;
+}
+
+#sm2-container.swf_unblocked {
+ /* SWF unblocked, or was never blocked to begin with; try to collapse container as much as possible. */
+ width: 1px;
+ height: 1px;
+}
+
+#sm2-container.swf_loaded object,
+#sm2-container.swf_loaded embed,
+#sm2-container.swf_unblocked object,
+#sm2-container.swf_unblocked embed {
+ /* hide flash off-screen (relative to container) when it has loaded OK */
+ left: -9999em;
+ top: -9999em;
+}
+
+#sm2-container.swf_error {
+ /* when there is a fatal error (flash loaded, but SM2 failed) */
+ display: none;
+}
+
+#sm2-container.high_performance,
+#sm2-container.high_performance.swf_timeout {
+ /* "high performance" case: keep on-screen at all times */
+ position: absolute;
+ position: fixed;
+}
+
+#sm2-container.high_performance {
+ overflow: hidden;
+ _top: -9999px; /* IE 6 hax, no position:fixed */
+ _left: -9999px;
+ bottom: 0px;
+ left: 0px;
+ /**
+  * special case: show at first with w/h, hide when unblocked.
+  * might be bad/annoying.
+  * try to stay within ClickToFlash "invisible" limits (so it won't be blocked.)
+  */
+ z-index: 99; /* try to stay on top */
+}
+
+#sm2-container.high_performance.swf_loaded,
+#sm2-container.high_performance.swf_unblocked {
+ z-index: auto;
+}
+
+#sm2-container.high_performance.swf_loaded,
+#sm2-container.high_performance.swf_unblocked,
+#sm2-container.high_performance.swf_unblocked object,
+#sm2-container.high_performance.swf_unblocked embed {
+ /**
+  * 8x8px is required minimum to load in fx/win32 in some cases(?)
+  * 6x6+ good for fast performance, even better when on-screen via position:fixed
+  * also, clickToFlash (Safari <5.1) may auto-load "invisible" SWFs at this size
+  */
+ height: 8px;
+ width: 8px;
+}
+
+#sm2-container.high_performance.swf_loaded {
+ /* stay bottom/left */
+ top: auto;
+ bottom: 0px;
+ left: 0px;
+}
+
+#sm2-container.high_performance.swf_loaded object,
+#sm2-container.high_performance.swf_loaded embed,
+#sm2-container.high_performance.swf_unblocked object,
+#sm2-container.high_performance.swf_unblocked embed {
+ /* high-performance case must stay on-screen */
+ left: auto;
+ top: auto;
+}
+
+#sm2-container.high_performance.swf_timedout {
+ z-index: 99; /* try to stay on top */
+}
+@font-face {
+    font-family: 'gear';
+    src:    url('../fonts/gear.eot?f6kyz8');
+    src:    url('../fonts/gear.eot?f6kyz8#iefix') format('embedded-opentype'),
+        url('../fonts/gear.ttf?f6kyz8') format('truetype'),
+        url('../fonts/gear.woff?f6kyz8') format('woff'),
+        url('../fonts/gear.svg?f6kyz8#gear') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="gear-"], [class*=" gear-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'gear' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gear-replay:before {
+    content: "\e903";
+}
+.gear-shuffle:before {
+    content: "\e904";
+}
+.gear-menu:before {
+    content: "\e5d2";
+}
+.gear-pause:before {
+    content: "\e034";
+}
+.gear-pause-circle-outline:before {
+    content: "\e036";
+}
+.gear-play-arrow:before {
+    content: "\e037";
+}
+.gear-play-circle-outline:before {
+    content: "\e039";
+}
+.gear-playlist-play:before {
+    content: "\e05f";
+}
+.gear-toc:before {
+    content: "\e8de";
+}
+.gear-view-headline:before {
+    content: "\e8ee";
+}
+.gear-view-list:before {
+    content: "\e8ef";
+}
+.gear-volume-down:before {
+    content: "\e04d";
+}
+.gear-volume-mute:before {
+    content: "\e04e";
+}
+.gear-volume-off:before {
+    content: "\e04f";
+}
+.gear-volume-up:before {
+    content: "\e050";
+}
+/* Generic Stuff for whole document */
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+svg,
+canvas {
+  top: 0 !important;
+  left: 0 !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+img {
+  /*max-width: 100%;*/
+  /*height: auto;*/
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+.stage {
+  position: absolute;
+  height: inherit;
+  float: left;
+  width: 100%;
+  /*background-color: #111111;*/
+}
+.stage .wrap {
+  height: inherit;
+}
+.gearWrap {
+  visibility: hidden;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 100;
+}
+.gearWrap a {
+  text-decoration: none;
+}
+.gearWrap .time {
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.9em;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: -1pt;
+  font-family: 'Roboto', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.gearWrap .play {
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 48px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: -0.025em;
+  cursor: pointer;
+}
+.gearWrap .close {
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2em;
+  margin: 1em;
+  cursor: pointer;
+}
+.gearWrap .close i {
+  text-shadow: 0px 0px 6px #000;
+}
+.gearWrap .close svg {
+  cursor: pointer;
+}
+.gearWrap .shuffle {
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  margin: 1em;
+  cursor: pointer;
+}
+.gearWrap .shuffle i {
+  text-shadow: 0px 0px 6px #000;
+}
+.gearWrap .playlist {
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 31px;
+  margin: 1em;
+  cursor: pointer;
+  display: none;
+}
+.gearWrap .playlist i {
+  text-shadow: 0px 0px 6px #000;
+}
+.gearWrap .currentGroup {
+  bottom: 0;
+  color: #FFFFFF;
+  display: block;
+  height: 100px;
+  left: 0;
+  line-height: 100px;
+  margin: 2em;
+  position: absolute;
+  width: 100px;
+}
+.gearWrap .currentGroup svg {
+  float: left;
+  position: absolute!important;
+  left: 0;
+  top: 0;
+}
+.gearWrap .currentGroup .numbers {
+  font-family: 'Roboto', sans-serif;
+  left: 0;
+  line-height: 2.7em;
+  position: absolute;
+  top: 23px;
+}
+.gearWrap .currentGroup .numbers .current {
+  display: block;
+  float: left;
+  font-size: 3.7em;
+  letter-spacing: -3pt;
+  line-height: 1.2em;
+  margin-right: 0.1em;
+  text-align: right;
+  width: 1em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.gearWrap .currentGroup .numbers .total {
+  display: block;
+  float: left;
+  font-size: 1em;
+  opacity: 0.5;
+  text-align: left;
+  vertical-align: top;
+  width: 1em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.gear {
+  width: auto;
+  height: auto;
+  display: inline-table;
+  float: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+.inline {
+  display: inline-block !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  visibility: visible;
+}
+.inline .close {
+  display: none!important;
+}
+#gearEqualizer {
+  display: block;
+  height: 200px;
+  left: 50%;
+  overflow: visible;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
+#gearBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  background: rgba(255, 255, 255, 0);
+}
+#_gPlayer {
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+#_gOverlay {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #121310;
+  background: #121310;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #121310 0%, #000000 82%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #121310), color-stop(82%, #000000));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #121310 0%, #000000 82%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #121310 0%, #000000 82%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #121310 0%, #000000 82%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #121310 0%, #000000 82%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#121310', endColorstr='#000000', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+#_gAlbum {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 30px;
+  width: 100%;
+}
+#_gAlbum .cover {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+#_gAlbum .albumgroup {
+  float: left;
+  margin-left: 6px;
+  text-align: left;
+  max-width: 70%;
+  width: inherit;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #eaeaea;
+}
+#_gAlbum .albumgroup .title {
+  background-color: #191919;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  padding: 2px;
+  clear: both;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: -1pt;
+  font-weight: bold;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+#_gAlbum .albumgroup .title a {
+  color: #FFFFFF;
+}
+#_gAlbum .albumgroup .author {
+  float: left;
+  display: block;
+  background-color: #1b1b1b;
+  color: #848484;
+  padding: 2px;
+  clear: both;
+  margin-top: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+#_gAlbum .albumgroup .author a {
+  color: #848484;
+}
+.gearMini {
+  position: fixed;
+  bottom: 0;
+  float: right;
+  display: block;
+  margin: 1em;
+  font-size: 1em;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.95);
+  line-height: 1em;
+  width: auto;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.gearMini .gearCircle {
+  display: block;
+  cursor: pointer;
+  float: left;
+}
+.gearMini .gearCircle svg {
+  display: block;
+  cursor: pointer;
+}
+.gearMini .gearLabel {
+  float: left;
+  font-family: 'Maven Pro', sans-serif;
+  width: 0;
+  display: block;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+.gearMini .gearLabel span {
+  clear: both;
+  float: left;
+  margin: 0;
+  line-height: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  height: 1em;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-left: 3px;
+  white-space: nowrap;
+  display: inline-block;
+  width: 100%;
+}
+.gearMini .gearLabel .gearTitle {
+  margin-top: 4px;
+  /*font-size: 1.4em;
+          font-weight: 400;*/
+}
+.gearMini .gearLabel .gearAuthor {
+  /*font-size: 0.85em;
+          font-weight: 600;*/
+  opacity: 0.5;
+}
+.right {
+  left: auto!important;
+  right: 0;
+}
+.right .gearCircle {
+  float: right;
+}
+.right .gearLabel {
+  float: right;
+}
+.right .gearLabel span {
+  padding-left: 1em;
+}
+@media all and (max-width: 640px) {
+  .gearWrap {
+    /*.playlist {
+        display:block;
+        margin:10px 10px 10px 14px;
+        z-index: 4;
+      }
+      .shuffle {
+        margin:10px 13px 10px 10px;
+        z-index: 4;
+      }*/
+  }
+  .gearWrap .currentGroup {
+    display: none;
+  }
+  .gearWrap .shuffle,
+  .gearWrap .playlist,
+  .gearWrap .close {
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    margin: 0;
+    vertical-align: middle;
+    width: 70px;
+    z-index: 2;
+  }
+  .gearWrap .shuffle i,
+  .gearWrap .playlist i,
+  .gearWrap .close i {
+    line-height: 70px;
+    font-size: 1.2em;
+  }
+  .gearWrap .shuffle i {
+    font-size: 30px;
+  }
+  #_gAlbum {
+    margin: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  #_gAlbum .cover {
+    width: 40px;
+    height: 40px;
+  }
+  #_gAlbum .albumgroup {
+    width: 65%;
+    height: 40px;
+    margin-left: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  #_gAlbum .albumgroup .author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+  }
+  #_gAlbum .albumgroup .title {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+}
+
+
+.gearWrap .tabme {
+  top: 50px;
+}

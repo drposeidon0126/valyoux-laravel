@@ -1,0 +1,144 @@
+<style>
+
+   /*  @media only screen (min-width:1024px){ */
+    .track:hover{
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+  -webkit-overflow-scrolling: touch;
+   /*  } */
+}
+
+@media only screen (max-width:1024px){
+    .track:active{
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+  -webkit-overflow-scrolling: touch;
+  
+    }
+}
+</style>
+
+
+<?php if(isset($artist)){ ?>
+<ul class="nav nav-tabs main-nav-tabss mt-4">
+<div class="col-xl-12">
+    <div class="card mb-0 posFixed-sVxd" id="bs-float">
+        <div class="card-body">
+            <div class="stock-price text-center">Stock Price</div>
+            <div class="d-flex d-flexBlock-mob justify-content-center bd-highlight align-items-center">
+                <div class="marquee">
+                    <div class="track">
+                        <div class="vxd d-inline">$58.60 VXD</div>
+                        <div class="priceT d-inline pr-5">&nbsp;&nbsp;+ 28.57%</div>
+                        <div class="vxd d-inline pl-5">0.000014 BTC</div>
+                        <div class="priceT d-inline pr-5">&nbsp;&nbsp;+ 28.57%</div>
+                        <div class="vxd d-inline pl-5">
+                         $ {{ numberformat($artist['stock_value']) }} USDT</div>
+                         <?php $sign = '';
+                          if($artist['change_stock'] > 0){
+                             $change_stock = '+ '.numberformat($artist['change_stock']) ;
+                         }else{
+                            $change_stock =  signformat($artist['change_stock'],0) ;
+                         } ?>
+                        <div class="priceT d-inline pr-5">&nbsp;&nbsp;{{ $change_stock }}%</div>
+                        <div class="vxd d-inline pl-5">0.00019 ETH</div>
+                        <div class="priceT d-inline">&nbsp;&nbsp;+ 28.57%</div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row text-center d-flex justify-content-center mb-3  mt-2">
+                <div class="col-xl-2 col-sm-3 col-6">
+                    <button class="btn btn-pink btn-sm w-md waves-effect waves-light mr-3" data-toggle="modal" data-target="#sellStockModal">Sell Stock</button>
+                </div>
+                <div class="col-xl-2 col-sm-3 col-6">
+                    <button class="btn btn-green btn-sm w-md waves-effect waves-light" data-toggle="modal" data-target="#buyStockModal">Buy Stock</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  <!--Buy Modal -->
+  <div class="modal fade proceed_modal" id="buyStockModal" aria-labelledby="buyStockModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4><b class="color-pinkk">Buy Stock</b></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <div class="card-body price-card">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-price-div">
+                                        <p>How many stocks of this artist would you like to purchase?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quantity">
+                                <input type='button' value='-' id="minus" class='minus' field='quantity' />
+                                <input type='text' name='quantity' id="quantity" value='1' class='qty input-qty dollar' readonly/>
+                                <input type='button' value='+' id="plus" class='plus ' field='quantity'/>
+                                <input type="hidden" value="{{ numberformat($artist['stock_value']) }}" class="stock_value">
+                            </div>
+                        </div>
+                        <br><br>
+                        
+                        <h2 style="font-size: 24px; text-align: center; padding: 0 0 0; color: #1EDD0E;    font-weight: 700;">Total Cost: $ <span class="total_cost">{{ numberformat($artist['stock_value']) }}</span> VXD</h2>
+                        <br>
+                        <h2 style="font-size: 16px; text-align: center; padding: 0 0 20px; color: #000;">Amount of Shares X Current Stock Price + Fees % = Total Cost.</h2>
+                        <button class="btn btn-green btn-sm waves-effect waves-light">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sell Modal -->
+    <div class="modal fade proceed_modal" id="sellStockModal" aria-labelledby="buyStockModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4><b class="color-pinkk">Sell Bobby K.9. Stocks</b></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <div class="card-body price-card price-card-pink">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-price-div">
+                                        <p>How many stocks of this artist would you like to sell?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quantity">
+                                <input type='button' value='-' id="minus2" class='minus' field='quantityy'/>
+                                <input type='text' name='quantityy' value='25' class='qty input-qty dollar'/>
+                                <input type='button' value='+' id="plus2" class='plus ' field='quantityy'/>
+                            </div>
+                        </div>
+                        <br><br>
+                        <h2 style="font-size: 24px; text-align: center; padding: 0 0 0; color: #ce196c;    font-weight: 700;">Total Cost: $ 1490 VXD</h2>
+                        <br>
+                        <h2 style="font-size: 16px; text-align: center; padding: 0 0 20px; color: #000;">Amount of Shares X Current Stock Price + Fees % = Total Cost.</h2>
+                        <button class="btn btn-pink btn-sm waves-effect waves-light">Sell Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php } ?>

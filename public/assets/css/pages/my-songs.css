@@ -1,0 +1,55 @@
+
+    img.rounded-circle.avatar-xm.m-1.w-25 {
+        width: 100%;
+        max-width: 30px;
+    }
+    img.rounded-circle.avatar-xm.m-1 {
+        width: 100%;
+        max-width: 40px;
+    }
+
+    img.rounded-circle.avatar-xm.m-1.play-button {
+        width: 100%;
+        max-width: 60px;
+    }
+    .valyou-o-btn{
+        color: #fff;
+        padding: 10px 15px;
+        background-image: linear-gradient(77deg,#FF4182,#FFA85B 100%);
+        border: none;
+        width: 100%;
+        max-width: 80px;
+    }
+
+    .valyou-o-btn:hover{
+        color: #fff;
+        background-image: linear-gradient(77deg,#FFA85B,#FF4182 100%);
+    }
+    .valyou-g-btn{
+        color: #fff;
+        padding: 10px 15px;
+        background-image: linear-gradient(77deg,#00FFC2,#00B8BA 100%);
+        border: none;
+        width: 100%;
+        max-width: 80px;
+    }
+    .valyou-g-btn:hover{
+        color: #fff;
+        background-image: linear-gradient(77deg,#00B8BA ,#00FFC2 100%);
+    }
+    .progress-bar {
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #FF4680;
+        transition: width .6s ease;
+    }
+    .progress {
+        height: 0.123rem;
+        line-height: 0;
+        font-size: .609375rem;
+        background-color: lightgrey;
+        border-radius: .25rem;
+    }

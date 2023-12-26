@@ -1,0 +1,11 @@
+{
+  "albumCover":"img/thumbs/03.jpg",
+  "albumTitle":"Lost Sounds",
+  "albumAuthor":"Creative Commons",
+  "soundcloudEnabled":true,
+  "soundcloudClientID":"yourClientID",
+  "soundcloudSet":"https://soundcloud.com/you/sets/yourset",
+  "soundcloudOverwrite":true,
+  "autoPlay":true,
+  "shuffle":true
+}

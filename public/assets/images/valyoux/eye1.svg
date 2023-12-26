@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<title>New Project</title>
+	<defs>
+		<image width="48" height="48" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi4wMSAyMGMtNS4wNjUgMC05LjU4Ni00LjIxMS0xMi4wMS04LjQyNCAyLjQxOC00LjEwMyA2Ljk0My03LjU3NiAxMi4wMS03LjU3NiA1LjEzNSAwIDkuNjM1IDMuNDUzIDExLjk5OSA3LjU2NC0yLjI0MSA0LjQzLTYuNzI2IDguNDM2LTExLjk5OSA4LjQzNnptLTEwLjg0Mi04LjQxNmMuODQzIDEuMzMxIDUuMDE4IDcuNDE2IDEwLjg0MiA3LjQxNiA2LjMwNSAwIDEwLjExMi02LjEwMyAxMC44NTEtNy40MDUtLjc3Mi0xLjE5OC00LjYwNi02LjU5NS0xMC44NTEtNi41OTUtNi4xMTYgMC0xMC4wMjUgNS4zNTUtMTAuODQyIDYuNTg0em0xMC44MzItNC41ODRjMi43NiAwIDUgMi4yNCA1IDVzLTIuMjQgNS01IDUtNS0yLjI0LTUtNSAyLjI0LTUgNS01em0wIDFjMi4yMDggMCA0IDEuNzkyIDQgNHMtMS43OTIgNC00IDQtNC0xLjc5Mi00LTQgMS43OTItNCA0LTR6Ii8+PC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="eye" href="#img1" transform="matrix(0.708,0,0,0.708,3,3)"/>
+</svg>

@@ -1,0 +1,222 @@
+:root {
+	--accent: #0094ff;
+/* 	--accent: #d7577e; */
+	
+	--main: #ffffff;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #d7577e;
+}
+html {
+	display: flex;
+	justify-content: center;
+	font-family: Comfortaa;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+	color: var(--main);
+}
+.player-container {
+	padding: 40px;
+	max-width: 700px;
+	margin: auto;
+}
+.player {
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	box-shadow: 0px 10px 0px -3px rgba(0, 0, 0, 0.2);
+	position: relative;
+	overflow: hidden;
+	background: #000000;
+}
+.player:fullscreen {
+	padding-bottom: 100vh;
+}
+.player:-webkit-full-screen {
+	padding-bottom: 100vh;
+}
+.player:-moz-full-screen {
+	padding-bottom: 100vh;
+}
+.player:-ms-fullscreen  {
+	padding-bottom: 100vh;
+}
+.player video {
+	width: 100%;
+	height: auto;
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.controls {
+	padding: 0;
+	position: absolute;
+	bottom: -80px;
+	width: 100%;
+	height: 48px;
+	box-sizing: border-box;
+	background: linear-gradient(
+		180deg,
+		rgba(37, 37, 37, 0) 10%,
+		rgba(37, 37, 37, 0.6) 80%
+	);
+	transition: all 0.2s ease-in 5s;
+}
+.player:hover .controls {
+	bottom: 0;
+	transition: all 0.2s ease-out;
+}
+.time {
+	position: absolute;
+	right: 30px;
+	bottom: 100%;
+	padding-bottom: 14px;
+}
+.progress {
+	height: 8px;
+	width: calc(100% - 40px);
+	background: rgba(60, 60, 60, 0.6);
+	margin: auto;
+	border-radius: 6px;
+	position: absolute;
+	left: 20px;
+	bottom: 100%;
+	transition: height 0.1s ease-in-out;
+}
+.progress:hover {
+	height: 10px;
+}
+.progress-filled {
+	background: var(--accent);
+	width: 0%;
+	height: 100%;
+	border-radius: 6px;
+	transition: all 0.1s; 
+}
+.controls-main {
+	width: calc(100% - 40px);
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.controls-left,
+.controls-right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.controls-left {
+	margin-left: 10px;
+}
+.controls-right {
+	margin-right: 10px;
+	justify-content: flex-end;
+}
+.volume {
+	display: flex;
+	align-items: center;
+}
+.volume-btn {
+	margin-right: 10px;
+}
+.volume-btn #volume-off, .volume-btn #volume-high {
+	opacity: 0;
+}
+.volume-btn.loud #volume-high{
+	opacity: 1;
+}
+.volume-btn.muted #volume-off {
+	opacity: 1;
+}
+.volume-btn.muted #volume-high, .volume-btn.muted #volume-low {
+	opacity: 0;
+}
+.volume-slider {
+	height: 8px;
+	width: 80px;
+	background: rgba(60, 60, 60, 0.6);;
+	border-radius: 6px;
+	position: relative;
+}
+.volume-filled {
+	background: var(--main);
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	transition: width 0.2s ease-in-out;
+}
+.volume-filled:hover, .play-btn:hover.play-btn:before, .play-btn:hover.play-btn:after{
+	background: var(--accent);
+}
+button {
+}
+.play-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: auto;
+	transform: rotate(-90deg) scale(0.8);
+	transition: -webkit-clip-path 0.3s ease-in 0.1s, shape-inside 0.3s ease-in 0.1s,
+		transform 0.8s cubic-bezier(0.85, -0.25, 0.25, 1.425);
+}
+.play-btn.paused {
+	transform: rotate(0deg);
+}
+.play-btn:before,
+.play-btn:after {
+	content: "";
+	position: absolute;
+	background: white;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transition: inherit;
+}
+.play-btn:before {
+	-webkit-clip-path: polygon(0 10%, 100% 10%, 100% 40%, 0 40%);
+	shape-inside: polygon(0 10%, 100% 10%, 100% 40%, 0 40%);
+}
+.play-btn:after {
+	-webkit-clip-path: polygon(0 60%, 100% 60%, 100% 90%, 0 90%);
+	shape-inside: polygon(0 60%, 100% 60%, 100% 90%, 0 90%);
+}
+.play-btn.paused:before {
+	-webkit-clip-path: polygon(10% 0, 90% 51%, 90% 51%, 10% 51%);
+	shape-inside: polygon(0 0, 100% 51%, 100% 51%, 0 51%);
+}
+.play-btn.paused:after {
+	-webkit-clip-path: polygon(10% 49.5%, 80% 49.5%, 90% 49.5%, 10% 100%);
+	shape-inside: polygon(10% 49.5%, 80% 49.5%, 90% 49.5%, 10% 100%);
+}
+button:focus {
+	outline: none;
+}
+.speed-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	margin-right: 20px;
+	text-align: center;
+}
+.speed-list li {
+	color: var(--main);
+	padding: 5px;
+	cursor: default;
+}
+.speed-list li:hover,
+.speed-list li.active {
+	color: var(--accent);
+	font-weight: bold;
+}
+.fullscreen {
+	display: flex;
+	justify-content: center;
+}

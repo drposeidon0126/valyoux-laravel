@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #444;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_2908" data-name="Path 2908" class="cls-1" d="M0,0H40V40H0Z" transform="translate(123 540)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2785" data-name="Group 2785" transform="translate(-123 -549)">
+    <g id="Mask_Group_48" data-name="Mask Group 48" class="cls-2" transform="translate(0 9)">
+      <g id="Group_2783" data-name="Group 2783" transform="translate(6.57 16.119)">
+        <g id="Group_2781" data-name="Group 2781" transform="translate(-4.57 3.273)">
+          <g id="Group_2782" data-name="Group 2782" transform="translate(130 529.607)">
+            <g id="Group_2784" data-name="Group 2784">
+              <g id="headphones">
+                <path id="Path_2627" data-name="Path 2627" class="cls-3" d="M21.57,12.885A10.786,10.786,0,0,0,3.158,5.258,10.718,10.718,0,0,0,0,12.885v5.106a5.243,5.243,0,0,0,5.236,5.236.621.621,0,0,0,.623-.623v-9.22a.621.621,0,0,0-.623-.623,5.218,5.218,0,0,0-3.989,1.847V12.885a9.539,9.539,0,1,1,19.077,0,.573.573,0,0,0,.014.125.573.573,0,0,0-.014.125v1.722a5.218,5.218,0,0,0-3.989-1.847.621.621,0,0,0-.623.623v9.22a.621.621,0,0,0,.623.623,5.243,5.243,0,0,0,5.236-5.236V13.134a.573.573,0,0,0-.014-.125A.573.573,0,0,0,21.57,12.885ZM4.608,14.053V21.93a3.987,3.987,0,0,1,0-7.876Zm12.355,8.126V14.3a3.987,3.987,0,0,1,0,7.876Z" transform="translate(0 -2.1)"/>
+              </g>
+              <g id="Group_2061" data-name="Group 2061" transform="translate(7.996 10.961)">
+                <path id="Path_2668" data-name="Path 2668" class="cls-3" d="M56.077,49.193a.764.764,0,0,0,.725-.8c0-1.188-1.513-.689-2.176-.8-.038-.188.21-1.6-.725-1.6-.959,0-.684,1.395-.725,1.6h-.443A1.76,1.76,0,0,0,51,49.38V50.6a1.76,1.76,0,0,0,1.733,1.782H55.07c.473,0,.209.478.282,1.407,0,.318-.842.141-1.44.188l-.011,0-.011,0c-1.214.15-2.891-.458-2.891.8,0,1.188,1.513.689,2.176.8v.8a.728.728,0,1,0,1.451,0v-.8h.443A1.76,1.76,0,0,0,56.8,53.789v-1.22c0-2.883-4.352-1.269-4.352-1.969V49.38C52.451,49.02,53.45,49.273,56.077,49.193Z" transform="translate(-51 -46.001)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

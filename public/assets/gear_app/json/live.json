@@ -1,0 +1,12 @@
+{
+  "albumCover":"img/thumbs/01.jpg",
+  "albumTitle":"Live Example",
+  "albumAuthor":"Your Radio Station",
+  "autoPlay":true,
+  "shuffle":false,
+  "entries": [
+      {"title":"Awesome Web Radio", "author":"Dee Jay", "live":true, "liveDuration":3, "media":"http://radio.net:8000/radio", "link":"http://www.radio.net", "color":"#56B0E8" },
+      
+      {"title":"Live Performance", "author":"John Doe", "type":"audio/aac", "live":true, "liveDuration":3, "media":"http://shoutcast.yoursite.net:9602/;stream.mp3", "link":"http://www.yoursite.net", "color":"#56B0E8" }
+    ]
+}

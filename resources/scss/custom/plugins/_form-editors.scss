@@ -1,0 +1,119 @@
+//
+// Form editors.scss
+//
+
+// Tinymce 
+
+.tox-tinymce {
+  border: 1px solid $input-border-color !important;
+}
+
+.tox {
+  .tox-statusbar {
+    border-top: 1px solid $light !important;
+  }
+    .tox-menubar, .tox-edit-area__iframe, .tox-statusbar{
+      background-color: $card-bg !important;
+      background: none !important;
+    }
+    .tox-mbtn{
+      color: $gray-700 !important;
+        &:hover:not(:disabled):not(.tox-mbtn--active){
+            background-color: $light !important;
+        }
+    }
+    .tox-tbtn{
+        &:hover{
+            background-color: $light !important;
+        }
+    }
+
+    .tox-toolbar, .tox-toolbar__overflow, .tox-toolbar__primary{
+      background: $light !important;
+    }
+
+    .tox-toolbar__primary{
+      border-top-color: $light !important;
+    }
+
+    .tox-tbtn{
+      color: $gray-700 !important;
+      svg{
+        fill: $gray-700 !important;
+      }
+    }
+
+    .tox-edit-area__iframe{
+      background-color: $card-bg !important;
+    }
+  
+    .tox-statusbar a, .tox-statusbar__path-item, .tox-statusbar__wordcount{
+      color: $gray-700 !important;
+    }
+
+    &:not([dir=rtl]) .tox-toolbar__group:not(:last-of-type) {
+      border-right: 1px solid darken($light, 5%) !important;
+    } 
+}
+
+// Summernote
+
+.note-editor{
+    &.note-frame {
+      border: 1px solid $input-border-color;
+      box-shadow: none;
+      margin: 0;
+  
+      .note-statusbar {
+        background-color: $light;
+        border-top: 1px solid $light;
+      }
+
+      .note-editing-area{
+        .note-editable, .note-codable {
+          border: none;
+          color: $gray-500;
+          background-color: transparent;
+        }
+      }
+  
+    }
+  }
+
+  .note-btn-group{
+    .note-btn{
+      background-color: $light !important;
+      border-color: $light !important;
+    }
+  }
+  
+  .note-status-output {
+    display: none;
+  }
+  
+  .note-editable {
+  
+    p {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .note-popover .popover-content .note-color .dropdown-menu,
+  .card-header.note-toolbar .note-color .dropdown-menu {
+      min-width: 344px;
+  }
+  
+  .note-popover{
+    border-color: $light;
+  }
+  
+  .note-popover .popover-content, 
+  .card-header.note-toolbar{
+    background-color: $light;
+  }
+
+  .note-toolbar {
+    padding: 0 0 5px 5px !important;
+}

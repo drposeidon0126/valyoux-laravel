@@ -1,0 +1,114 @@
+@media screen and (max-width: 650px) {
+
+    .select-price-type {
+        float: right;
+        background-color: #ff0093;
+        padding: 7px 12px 7px;
+        color: #fff;
+        border: none;
+        min-width: 130px !important;
+        max-width: 130px !important;
+        display: block;
+    }
+
+
+    td.paddingleftrightzero {
+        padding: 0px 0px 0px !important;
+    }
+
+    td.row-btn-margin {
+        padding: 0px 0px 25px !important;
+        padding-right: 5px !important;
+    }
+
+
+    .project-list-table tr {
+        background-color: transparent;
+        opacity: .93;
+        box-shadow: 0 0 9.3578px rgba(0, 0, 0, .1); 
+    }
+
+    .table-responsive-m {
+        overflow-x: visible !important;
+    }
+
+
+    .text-truncate {
+        font-size: 14px !important;
+        margin: 0px;
+    }
+
+    .stock-pricing {
+        font-size: 17px !important;
+        font-family: Roboto;
+        font-weight: 600;
+    }
+
+    .status-danger,
+    .status-success {
+        color: #fff;
+        /*    border-radius: .25rem;*/
+        padding: 0.25em 0.9em;
+    }
+
+
+    .status-danger,
+    .status-success {
+        color: #fff;
+        /*    border-radius: 2.25rem;*/
+        padding: 0.45em 1.8em;
+        font-size: 10px;
+    }
+
+    .table-responsive-m {
+        display: block !important;
+    }
+
+
+    .table-responsive-web {
+        display: none !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+.table-responsive-m {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .table-responsive-web {
+
+        box-sizing: unset !important;
+    }
+
+    .table-nowrap td,
+    .table-nowrap th {
+        white-space: nowrap !important;
+    }
+
+}
+
+.project-list-table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+
+.table-responsive-web {
+    overflow-x: visible !important;
+}
+
+
+.select-price-type {
+    display: none;
+}

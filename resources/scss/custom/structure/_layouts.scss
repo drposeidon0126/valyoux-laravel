@@ -1,0 +1,94 @@
+//
+// _layouts.scss
+//
+body[data-layout-size="boxed"] {
+    background-color: $boxed-body-bg;
+    #layout-wrapper {
+        background-color: $body-bg;
+        max-width: $boxed-layout-width;
+        margin: 0 auto;
+        box-shadow: $box-shadow;
+    }
+    #page-topbar {
+        max-width: $boxed-layout-width;
+        margin: 0 auto;
+    }
+    .footer {
+        margin: 0 auto;
+        max-width: calc(#{$boxed-layout-width} - #{$sidebar-width});
+    }
+    &.vertical-collpsed {
+        .footer {
+            max-width: calc(#{$boxed-layout-width} - #{$sidebar-collapsed-width});
+        }
+    }
+}
+
+// Horizontal Boxed Layout
+body[data-layout="horizontal"][data-layout-size="boxed"] {
+    #page-topbar,
+    #layout-wrapper,
+    .footer {
+        max-width: 100%;
+    }
+    .container-fluid,
+    .navbar-header {
+        max-width: $boxed-layout-width;
+    }
+}
+
+// Scrollable layout
+body[data-layout-scrollable="true"] {
+    @media (min-width: 992px) {
+        #page-topbar, .vertical-menu {
+            position: absolute;
+        }
+    }
+    &[data-layout="horizontal"] {
+        @media (min-width: 992px) {
+            #page-topbar, .topnav {
+                position: absolute;
+            }
+        }
+    }
+}
+
+// Custom CSS by Afshal
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0rem !important;
+}
+
+
+/********tabel body********/
+
+.project-list-table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    width: 99%;
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .navbar-header .dropdown .dropdown-menu {
+        left: 29%!important;
+        right: 0!important;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link,
+    .roboto-bold {
+        font-size: 10px;
+    }
+}
+
+
+/********END********/

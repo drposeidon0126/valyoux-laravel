@@ -1,0 +1,13 @@
+{
+  "albumCover":"img/thumbs/01.jpg",
+  "albumTitle":"Feel the Sound",
+  "albumAuthor":"Audio Jungle",
+  "autoPlay":true,
+  "shuffle":true,
+  "entries": [
+      {"title":"Cloudless Days", "author":"ADG3studios", "media":"mp3/adg3com_cloudlessdays.mp3", "link":"http://audiojungle.net/user/ADG3studios", "color":"#56B0E8" },
+      {"title":"Freeform", "author":"ADG3studios","media":"mp3/adg3com_freeform.mp3", "link":"http://audiojungle.net/user/ADG3studios", "color":"#56B0E8" },
+      {"title":"Cloudless Days", "author":"ADG3studios", "media":"mp3/adg3com_cloudlessdays.mp3", "link":"http://audiojungle.net/user/ADG3studios", "color":"#56B0E8" },
+      {"title":"Freeform", "author":"ADG3studios","media":"mp3/adg3com_freeform.mp3", "link":"http://audiojungle.net/user/ADG3studios", "color":"#56B0E8" }
+    ]
+}

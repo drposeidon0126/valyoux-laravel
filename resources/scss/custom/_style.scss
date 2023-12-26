@@ -1,0 +1,552 @@
+body {
+    background-color: $white !important;
+}
+
+// Navigation Css Start
+body[data-sidebar=dark] .vertical-menu {
+    background: #fff !important;
+}
+
+body[data-sidebar=dark] .navbar-brand-box {
+    background: #fff !important;
+}
+
+body[data-sidebar=dark] .mm-active {
+    color: #000 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a {
+    color: #707070 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a:hover {
+    color: $v-pink !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a i {
+    color: #707070 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a i:hover {
+    color: $v-pink !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a {
+    color: #707070 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a:hover {
+    color: $v-pink !important;
+}
+
+body[data-sidebar=dark] .mm-active {
+    color: #fff !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a.active {
+    color: $v-pink !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #050F2F !important;
+}
+
+.roboto-bold {
+    color: #050F2F !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+// Navigation Css End
+.text-green {
+    color: $v-green !important;
+}
+
+.text-red {
+    color: $v-pink !important;
+}
+
+a:hover {
+    color: $v-pink !important;
+}
+
+// Button Css Start
+.btn-dark-pink {
+    background-color: $v-pink !important;
+    border-radius: 2.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    width: $width100per;
+    color: #ffff;
+    font-size: 20px;
+    text-transform: none;
+    border: 0;
+}
+
+.btn-pink {
+    background-image: linear-gradient(77deg, #fa528b 0%, #ffc26f 99%);
+    border-radius: 2.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    width: $width100per;
+    color: #ffff;
+    font-size: 20px;
+    text-transform: none;
+    border: 0;
+}
+
+.btn-pink:hover {
+    background-image: linear-gradient(77deg, #ffc26f 0%, #fa528b 99%);
+}
+
+.btn-green {
+    background-image: linear-gradient(257deg, #00ffc2 0%, #00b8ba 100%);
+    border-radius: 2.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    width: $width100per;
+    color: #ffff;
+    font-size: 20px;
+    text-transform: none;
+    border: 0;
+}
+
+.btn-green:hover {
+    background-image: linear-gradient(257deg, #00b8ba 0%, #00ffc2 100%);
+    color: #ffff;
+}
+
+.btn-black {
+    color: #fff;
+    background-color: #050F2F;
+    border-color: #050F2F;
+}
+
+.btn-v-green {
+    color: #fff;
+    background-image: linear-gradient(257deg, #00ffc2 0%, #00b8ba 100%);
+    border-color: linear-gradient(257deg, #00ffc2 0%, #00b8ba 100%);
+}
+
+.btn-v-green:hover {
+    color: #fff !important;
+    background-image: linear-gradient(257deg, #00b8ba 0%, #00ffc2 100%);
+}
+
+.btn-v-pink {
+    color: #fff;
+    background-image: linear-gradient(77deg, #fa528b 0%, #ffc26f 99%);
+    border-color: linear-gradient(77deg, #fa528b 0%, #ffc26f 99%);
+}
+
+.btn-v-pink:hover {
+    color: #fff !important;
+    background-image: linear-gradient(77deg, #ffc26f 0%, #fa528b 99%);
+}
+
+// Button Css End
+// Status Color css Start
+.status-success {
+    color: #fff;
+    background-color: $v-green;
+    border-color: $v-green;
+    border-radius: 0.25rem;
+    padding: 0.25em 1.5em;
+}
+
+.status-danger {
+    color: #fff;
+    background-color: $v-pink;
+    border-color: $v-pink;
+    border-radius: 0.25rem;
+    padding: 0.25em 1.5em;
+}
+
+// Status Color css End
+.bg-black {
+    background-color: $black !important;
+    padding: 1rem !important;
+
+    p {
+        color: $white;
+        white-space: nowrap;
+    }
+
+    h4 {
+        color: $white;
+        white-space: nowrap;
+    }
+
+    h2 {
+        color: $white;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    span {
+        color: $v-pink !important;
+    }
+
+    button.btn.btn-light.waves-effect.bottom {
+        width: 100%;
+    }
+}
+
+// text style start
+.stock-price {
+    font-size: 20px;
+    color: #050F2F;
+    font-weight: normal;
+}
+
+.vxd {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+
+.priceT {
+    font-size: 20px;
+    color: #1EDD0E;
+    font-weight: bold;
+    position: relative;
+    bottom: 6px;
+}
+
+.posFixed-sVxd {
+    z-index: 10;
+}
+
+.text-v-medium {
+    color: #050F2F;
+    font-weight: 600;
+}
+
+// text style End
+.v-pink {
+    color: #FF0093
+}
+
+.v-green {
+    color: #1CEA2C
+}
+
+.marquees {
+    margin-top: 88px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrolling {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold !important;
+    font-stretch: normal !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: marquee 30s linear infinite;
+    left: 0;
+    top: 100px;
+    white-space: nowrap;
+    height: 33px;
+    color: #050F2F;
+
+    p {
+        margin-bottom: 0px !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+}
+
+.bs-float-parent {
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+#bs-float {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    margin: 12px;
+    height: 150px
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 60px;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #bs-float {
+        right: 0;
+        margin: 0;
+    }
+    .bs-float-parent {
+        margin: 0;
+    }
+    .stock-price {
+        font-size: 14px;
+        text-align: center;
+    }
+    .vxd {
+        font-size: 30px;
+        text-align: center;
+    }
+    .priceT {
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn-pink {
+        font-size: 15px;
+    }
+    .btn-green {
+        font-size: 15px;
+    }
+    .d-flex.d-flexBlock-mob {
+        display: block !important;
+    }
+}
+
+.dropdown-menu.show {
+    top: 20% !important;
+    right: 42px !important;
+    min-width: 14rem !important;
+    border-radius: 1.25rem !important;
+    font-family: "Roboto" !important;
+    //text-align: center !important;
+}
+
+.nav-followers {
+    margin-left: 4%;
+
+    span {
+        color: $v-pink !important;
+    }
+}
+
+// Crypto Wallet Page Start
+div.tab-select.nav.nav-pills.crypto-wallet {
+    text-align: center;
+
+    .nav-responsive {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.wallet {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0 1.5px 5px 0 rgba(0, 0, 0, 0.16);
+
+    h2 {
+        font-size: 40px;
+        margin-top: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #050F2F;
+    }
+
+    div.card-body.mt-5 {
+        margin-top: 5rem !important;
+    }
+
+    p.v-pink.mt-2 {
+        margin: 0px;
+    }
+}
+
+.wallet-button {
+    .bank_btns_wrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .send_money {
+        margin-left: 0px;
+    }
+
+    .req_money {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .exchange {
+        margin-right: 0px;
+    }
+}
+
+.deposit_box {
+    width: 100%;
+    margin-top: 30px;
+
+    .deposit {
+        display: flex !important;
+        justify-content: center !important;
+
+        input {
+            width: 67%;
+            height: 39.8px;
+            padding: 0px 15px;
+            border-radius: 2.5px;
+            border: 1px solid #d6d6d6;
+            outline: none;
+            border-right: 0px;
+            font-family: "Roboto";
+            color: #222222;
+            font-size: 13px;
+        }
+
+        input::placeholder {
+            color: #050F2F;
+        }
+
+        button {
+            width: 33% !important;
+            height: 39.8px !important;
+            background: #000;
+            color: #ffff;
+            border-radius: 2.5px;
+            border: none;
+            outline: none;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+
+    select {
+        width: 100%;
+        height: 39.8px;
+        padding: 0px 12px;
+        border-radius: 2.5px;
+        border: 1px solid #d6d6d6;
+        outline: none;
+        font-family: "Roboto";
+        color: #050F2F;
+    }
+
+    @media (max-width: 575px) {
+        input {
+            margin-top: 5px;
+        }
+        input::placeholder {
+            font-size: 9px;
+            color: #050F2F;
+        }
+        select {
+            font-size: 9px
+        }
+    }
+}
+
+.wallet {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.btn-dark-pink,
+.btn-pink,
+.btn-green {
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .wallet-button button {
+        width: 100%;
+        height: 39.8px;
+        font-size: 9px;
+        margin: 5px auto;
+    }
+    .wallet h2 {
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .wallet p {
+        font-size: 8px;
+    }
+    .wallet {
+        height: 170px;
+
+        div.card-body.mt-5 {
+            margin-top: 3rem !important;
+        }
+    }
+}
+
+.card-body {
+    h4.card-title.mb-4 {
+        color: $v-pink;
+    }
+}
+
+// Crypto Wallet Page End
+@media screen and (max-width: 480px) {
+    /********tabel body********/
+    .project-list-table {
+        width: 100%;
+        float: none;
+    }
+    /********END********/
+}
+
+.v-modal {
+    border: 0px none !important;
+
+    .modal-header {
+        background-color: #343a40;
+
+        h4 {
+            color: white;
+        }
+    }
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    max-height: 729px;
+}
+
+#page-topbar {
+    box-shadow: 0 0 0 rgba(18, 38, 63, .03) !important;
+}
+
+element.style {
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btnbar.mv {
+    margin-top: 2px !important;
+}
+
+.row.text-center.nav {
+    margin-left: -17px !important;
+}
+
+.dropdown.d-inline-block a {
+    margin-top: 7px !important;
+}

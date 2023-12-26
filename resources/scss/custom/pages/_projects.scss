@@ -1,0 +1,114 @@
+//
+// projects.scss
+//
+
+// project list
+
+.project-list-table{
+    border-collapse:separate;
+    border-spacing:0 12px;
+  tr{
+    background-color: $card-bg;
+    opacity: 0.93;
+    border-radius: 6.5px !important;
+    box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.30) !important;
+  }
+
+}
+
+.tab-select{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    flex-wrap: nowrap;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: normal;
+    .active {
+        color: #ff0093 !important;
+        outline: none;
+        text-decoration: underline solid #ff0093 2px !important;
+    }
+    .search_bar{
+        margin-left: auto;
+    }
+    a {
+        padding: 5px 50px;
+        white-space: nowrap;
+        color: $black !important;
+        font-weight: 600 !important;
+    }
+    input {
+        border: none;
+        border-bottom: 2px solid #ff0a97;
+        text-align: center;
+        color: #ff0a97;
+        border-radius: 0;
+    }
+    input::placeholder {
+        color: #ff0093;
+    }
+    input:focus {
+        outline: none;
+    }
+}
+
+.stock-pricing {
+    display: none;
+}
+.project-list-table th, .project-list-table td {
+    padding: 0.50rem !important;
+}
+
+@media (max-width: 992px) {
+    .stock-pricing {
+        display: block !important;
+        font-family: 'Roboto' !important;
+        padding-right: 0px!important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #050F2F !important;
+        font-stretch: normal;
+    }
+    .music-title {
+        display: none !important;
+    }
+    .pb-6 {
+        padding-bottom: 40px !important;
+    }
+    .tab-select {
+        overflow-x: scroll;
+    }
+    div.tab-select::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    div.tab-select {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+
+/********topbar********/
+.dropdown-menu.show
+{
+    top: 25% !important;
+    right: 42px !important;
+    min-width: 14rem !important;
+    border-radius: 1.25rem !important;
+    font-family: "Roboto" !important;
+    padding: 9px 10px;
+}
+
+@media (max-width: 600px)
+{
+    .navbar-header .dropdown .dropdown-menu
+    {
+        left: 4% !important;
+        right: 0px !important;
+        text-align: center;
+        width: 50%;
+    }
+}
+

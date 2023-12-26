@@ -1,0 +1,927 @@
+p.no-videos {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    margin-top: 135px;
+
+}
+
+@media (max-width: 768px){
+    p.no-videos {
+        text-align: center;
+        font-size: medium;
+        margin: 0;
+        margin-top:135px;
+    }
+}
+
+@media (max-width: 525px){
+    .tab-margin-top{
+        margin-top: 105px !important;
+    }
+}
+@media screen and (max-width: 760px) {
+    .form-group.spycust {
+        margin-bottom: 13px;
+    }
+
+}
+.spycust-margin-10{
+    margin:10px;
+}
+.artist-follower {
+
+    color: #000!important;
+    font-weight: 600!important;
+}
+.revenue-main-wrapper{
+
+}
+.revenue-col{
+
+}
+.main-head-wrapper{
+    color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 0 0 60px 0;
+    font-size: 34px;
+    flex-wrap: wrap;
+}
+.main-head-wrapper span{
+
+}
+.revenue-col h4{
+    color: #0A0A0A;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 100px 0 50px 0;
+}
+.single-row-revenue{
+    margin-bottom: 35px;
+}
+.single-row-revenue h5{
+    color: #0A0A0A;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.single-row-revenue h5 span{
+
+}
+.single-row-revenue p{
+    color: #707070;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 575px){
+    .main-head-wrapper {
+        margin: 0 0 30px 0;
+        font-size: 20px;
+    }
+    .revenue-col h4 {
+        font-size: 20px;
+        margin: 60px 0 50px 0;
+    }
+    .single-row-revenue h5{
+        font-size: 14px;
+    }
+    .single-row-revenue p{
+        font-size: 14px;
+    }
+    .revenue-main-wrapper .container{
+        padding: 0;
+    }
+    .revenue-main-wrapper .container .col-12{
+        padding: 0;
+    }
+}
+.b-green {
+    color: #1edd0e;
+}
+.s-red {
+    color: #ff0093;
+}
+@media (max-width: 525px){
+
+    .input-qty {
+        max-width: 170px !important;
+    }
+    .for-mob-profile{
+        z-index: 100 !important;
+    }
+
+}
+#candlestick-chart .apexcharts-reset-icon,#candlestick-chart text{
+    display: none;
+}
+.market-overview-wrapper{
+    color: #000;
+}
+.market-overview-wrapper h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #000;
+}
+.mo-single-row h5 {
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #000;
+}
+.mo-single-row p {
+font-size: 14px;
+margin-bottom: 0;
+color: #000;
+}
+.mo-single-row {
+margin-bottom: 20px;
+}
+
+.videos-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: none;
+}
+
+@media (max-width: 525px){
+.hide-on-mob{
+    display: none;
+}
+img.rounded-circle.avatar-xm.m-1.play-button {
+    max-width: 60px;
+    width: 25px;
+}
+
+.bs-float-parent{
+    height: 30px !important;
+}
+
+}
+@media screen and (max-width: 480px){
+.project-list-table {
+    margin-bottom: 100px;
+}
+}
+.tab-select .search_bar {
+margin-left: auto;
+margin-right: auto;
+}
+.project-list-table h3{
+margin: 0;
+font-size: 13px;
+}
+.valyou-o-btn ,.valyou-g-btn{
+padding: 5px 12px;
+}
+.profile_img_name .inner_img_name {
+    /* margin-top: 10px; */
+    margin-top: .5rem!important;
+}
+.profile_img_name {
+    display: flex;
+    align-items: flex-start;
+}
+.profile_img_name .post-section-artist-img {
+    width: 100%;
+    max-width: 85px;
+    margin-right: 15px;
+}
+p.post-section-artist-p1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    color: #F24336;
+}
+     .audio-text{
+            margin-left: 15px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    color: #000;
+    margin-left:10px;
+    line-height:normal;
+        }
+
+        .audio-text span{
+            font-size:17px;
+            float:left;
+            width:100%;
+            display:block;
+            color:gray;
+            font-weight:400;
+        }
+        img.audio-cover-image {
+            width: 80px;
+            height: 80px;
+        }
+.sm-left-wrap .uploading-section-artist-icon-img {
+            width: auto;
+            height: auto;
+            margin: 0;
+            margin-top: -4px;
+            max-width: 12px;
+        }
+
+.color-white{
+            color: #fff;
+        }
+    .b-green {
+        color: #1edd0e;
+    }
+    .s-red {
+        color: #ff0093;
+    }
+    /*code for post header section*/
+    .ps-parent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ps-left-wrap{
+        display: flex;
+        align-items: center;
+    }
+    .ps-left-wrap img{
+        margin-right: 25px;
+    }
+    .pslw-inner{
+
+    }
+    .pslw-inner .pslw-heading{
+        font-size: 24px;
+        font-weight: 800;
+        margin: 0px;
+        color: #F24336;
+    }
+    .pslw-inner .pslw-para{
+
+    }
+    .ps-right-wrap{
+
+    }
+    .ps-right-wrap p{
+        margin-right: 120px;
+    }
+
+    .tab-select.tab-margin-top a{
+        padding: 5px 40px;
+    }
+
+    @media (max-width: 768px){
+        .page-content{
+            padding: 80px 10px 80px !important;
+        }
+        .sm-left-desc p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+    }
+
+
+    .for_web{
+            display: block;
+    }
+        .for_mob{
+            display: none;
+        }
+    .for-padd-row{
+        padding-right: 15px;
+    }
+    .valyou-o-btn-invest {
+        padding: 8px 20px;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .social-media-profile-wrap{
+        background: #000;
+        padding: 10px 22px 10px 20px;
+        box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.3) !important;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sm-left-wrap {
+        display: flex;
+        align-items: flex-start;
+    }
+    .sm-left-wrap img{
+        margin: 3px 10px;
+        width: 65px;
+        height: 65px;
+    }
+    .sm-left-desc{
+
+    }
+    .sm-left-desc h5{
+        font-size: 13px;
+        color: #FF4182;
+        margin-bottom: 8px;
+    }
+    .sm-left-desc h2{
+        color: #FF4182;
+        margin-bottom: 5px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .sm-left-desc p{
+        color: #fff;
+        font-size: 13px;
+        margin: 0
+    }
+    .sm-left-desc p i{
+        margin-right: 2px
+    }
+    .sm-right-wrap .btn-invest-pink-grad{
+        color: #fff;
+        background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+        border: none;
+        width: 100%;
+        border-radius: 4px;
+        font-size: 20px;
+        padding: 7px 20px;
+    }
+    .color-pinkk{
+        color: #F9508A !important;
+        font-weight: 600;
+    }
+    .card.shadow-none {
+        border-radius: 17px;
+    }
+    .artist-comment-desc{
+        margin-left: 0;
+    }
+    .tooltip{
+        z-index: 1 !important;
+    }
+    .proceed_modal{
+
+    }
+    .proceed_modal .modal-body {
+       /*  padding: 0 1rem; */
+    }
+    .proceed_modal .modal-header {
+        border-bottom: none;
+    }
+    .popup-text{
+
+    }
+    .width-40{
+        max-width: 40px;
+    }
+    .for-btn-post{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*comment css */
+    .single-comment{
+        display: flex;
+        align-items: flex-start;
+    }
+    .sc-img{
+        margin-right: 15px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 60px;
+    }
+    .sc-inner{
+        display: flex;
+        align-items: baseline;
+        width: 100%;
+        background: #ededed;
+        padding: 15px;
+        border-radius: 10px;
+        height: 100%;
+    }
+    .sc-name{
+        white-space: nowrap;
+        width: 90%;
+        /*margin-top: 25px;*/
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #F9508A;
+        max-width: 170px;
+        min-width: 170px;
+    }
+    .sc-comment{
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .sidebar-enable.vertical-collpsed .single-comment{
+
+    }
+    .sidebar-enable.vertical-collpsed .sc-img{
+        margin-right: 35px;
+    }
+    .sidebar-enable.vertical-collpsed .sc-inner{
+
+    }
+    .sidebar-enable.vertical-collpsed .sc-name{
+        width: 70%;
+    }
+    .sidebar-enable.vertical-collpsed .sc-comment{
+
+    }
+    .client-input img{
+        max-width: 80px;
+        margin: 0 auto;
+    }
+    .input-price-div-new{
+        background: transparent;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .input-qty-new{
+        background: #fff !important;
+        margin: 0 20px;
+        border-radius: 5px;
+    }
+    @media (max-width: 575px){
+        .sm-right-wrap .btn-invest-pink-grad {
+    font-size: 11px;
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+        .social-media-profile-wrap{
+        padding: 10px 5px;
+        }
+        .sm-left-wrap {
+            margin-right: 5px;
+        }
+        .sm-left-wrap img{
+            margin: 3px 10px 0 2px;
+            width: 40px;
+            height: 40px;
+        }
+        .sm-left-desc h2{
+            font-size: 16px;
+        }
+        .sm-left-desc p{
+            font-size: 12px;
+        }
+        .sm-right-wrap .btn-invest-pink-grad{
+            font-size: 11px;
+            padding: 5px 5px;
+        }
+        .sm-left-wrap img.img-40 {
+            width: 40px;
+        }
+
+        .pad-left-0{
+            padding-left: 0px;
+        }
+        .artist-comment-desc {
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 16.6666666667%;
+        }
+
+        .sc-inner {
+            flex-wrap: wrap;
+            background: #ededed;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .sc-name {
+            width: 100%;
+            margin-top: 0;
+        }
+        .sc-comment {
+            margin-top: 5px;
+            width: 100%;
+        }
+        .sc-img {
+            margin-bottom: 0;
+            margin-top: 2px;
+        }
+        .post-section{
+            padding: 10px !important;
+        }
+        .sm-right-wrap{
+            margin-right: 7px;
+            position: absolute;
+            right: 12px;
+            top:9px;
+        }
+        .uploading-section-upload-img{
+            padding: 5px 0px 9px;
+            margin: 5px 2px 0;
+            margin-right: 10px;
+            max-width: 27px;
+        }
+        .width-40{
+            max-width: 24px;
+            margin-right: 10px;
+        }
+    }
+    .artist-maker-tabs {
+        overflow-x: scroll;
+    }
+    .artist-maker-tabs a{
+        padding: 5px 25px;
+    }
+    .artist-maker-tabs::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    .artist-maker-tabs::-webkit-scrollbar:vertical {
+        width: 6px;
+    }
+    .artist-maker-tabs::-webkit-scrollbar:horizontal {
+        height: 6px;
+    }
+    .artist-maker-tabs::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid white; /* should match background, can't be transparent */
+        background-color: #ededed;
+    }
+    .artist-markets-content-wrap {
+        padding-top: 20px;
+    }
+	.parent-for-video{
+	    position: relative;
+	}
+	.parent-for-video video{
+	    max-height: 450px;
+        height:auto;
+	}
+	.overlay-for-video{
+        position: absolute;
+        top: 0;
+        background: rgb(0 0 0 / 54%);
+        bottom: 0;
+        right: 0;
+        left: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+	}
+	.overlay-for-video img{
+
+	}
+    .video-modal{
+
+    }
+    .video-modal .modal-body{
+
+    }
+    .video-modal .modal-body p{
+
+    }
+    .valyou-g-btn {
+        color: #fff;
+        padding: 10px 15px;
+        background-image: linear-gradient(77deg, #00B8BA, #00FFC2 100%);
+        border: none;
+        width: 100%;
+        max-width: 175px !important;
+    }
+    .valyou-g-btn:hover {
+        color: #fff;
+        background-image: linear-gradient(77deg , #00FFC2, #00B8BA 100%);
+    }
+
+    .valyou-close-btn {
+        color: #fff;
+        padding: 10px 15px;
+        background-image: linear-gradient(77deg,#fa528b,#ffc26f 99%);
+        border: none;
+        width: 100%;
+        max-width: 175px !important;
+    }
+    .valyou-close:hover {
+        color: #fff;
+        background-color: #e41c78;
+        border-color: #d91a72;
+        background-image: linear-gradient(77deg,#ffc26f,#fa528b 99%);
+    }
+
+    @media (max-width: 525px){
+        .for_web{
+                display: none;
+            }
+            .for_mob{
+                display: block;
+            }
+            .for_mob.sm-left-desc h5{
+                font-size: 12px;
+            }
+        .ps-right-wrap p {
+            margin-right: 0;
+            font-size: 11px;
+        }
+        .pslw-inner .pslw-heading{
+            font-size: 20px;
+        }
+        .pslw-inner .pslw-para{
+            font-size: 11px;
+        }
+        .parent-for-video video {
+            max-height: 200px;
+        }
+
+        .bs-float-parent{
+            height: 30px !important;
+        }
+    }
+
+
+    .song-caption {
+      margin-top: 15px;
+    }
+    .song-caption .song_name {
+      font-weight: 800;
+      margin: 0px;
+      color: #F24336;
+      font-size: 14px;
+    }
+    .song-caption .song_valyou {
+      margin: 10px 0;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 10px;
+      font-size: 12px;
+    }
+    .song_artist_sec {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+    }
+    .song_artist_sec img {
+      max-width: 50px;
+      margin: 0;
+      margin-right: 10px;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      border: none;
+    }
+    .song_artist_sec .sac_right .sc_artist_name {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    .song_artist_sec .sac_right .sc_shareprice {
+      font-size: 12px;
+      margin: 0;
+    }
+    .sponsered-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sponsered-inner .green-one{
+        color: #90eb82;
+        font-size: 14px;
+    }
+    .sponsered-inner .pink-one{
+        color: #e62e51;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+    .parent-for-video{
+        padding: 0;
+    }
+    hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .valyou-g-btn {
+        max-width: 200px;
+    }
+.tab-select .search_bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.videothumbnail_wrapper {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    -webkit-box-shadow: 0px 2px 2px #eee;
+            box-shadow: 0px 2px 2px #eee;
+  }
+
+  .videothumbnail_wrapper .vw_head {
+    margin-bottom: 20px;
+  }
+
+  .videothumbnail_wrapper .vw_head h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    color: #000;
+  }
+
+  .videothumbnail_wrapper .vw_head h6 {
+    margin: 0;
+    font-size: 13px;
+    color: #656565;
+    line-height: 1.2;
+  }
+
+  .vw_single {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .vw_single .vws_video {
+    margin-right: 5px;
+  }
+
+  /* .vw_single .vws_video video {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+  } */
+
+  .vw_single .vws_caption h5 {
+    color: #F24336;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+
+
+  .simplebar-content-wrapper{
+      /* overflow: hidden !important; */
+  }
+  @media (max-width: 525px){
+
+    .input-qty {
+        max-width: 170px !important;
+    }
+    .for-mob-profile{
+        z-index: 100 !important;
+    }
+
+}
+p.followers {
+text-align: center;
+font-size: xx-large;
+margin: 0;
+}
+.follow-profile {
+    border: 1px solid #d4d4d4;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.follow-profile img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.follow-profile .sph-text {
+  flex: 1;
+  text-align: left;
+  padding-left: 15px;
+}
+.follow-profile-link {
+    display: flex;
+    align-items: center;
+}
+.follow-profile .sph-text h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e84e89;
+    margin-bottom: 8px;
+
+}
+
+.follow-profile .sph-text h6 {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #999;
+}
+.follow-profile .rating-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.follow-profile .sph-text .rating-wrap i {
+  color: #ffb600;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.follow-profile .sph-text .rating-wrap span {
+  margin: 0;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.follow-profile .sph-button {
+    display: inline-block;
+    border: none;
+    background: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+.follow-profile .sph-button:hover{
+    background: linear-gradient(77deg, #FFA85B 0%, #FF4182 100%);
+    color: #fff !important;
+}
+.foll-heading{
+    font-size: 22px;
+    color: #050F2F;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.foll-heading::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #050F2F;
+    bottom: -4px;
+    left: 0;
+}
+@media (max-width: 575px){
+    .follow-profile {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .follow-profile img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .follow-profile .sph-button{
+        margin-left: 0;
+        margin-top: 5px;
+        padding: 4px 10px;
+        font-weight: 500;
+        letter-spacing: 0;
+        font-size: 12px;
+    }
+    .follow-profile .sph-text h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .follow-profile .sph-text h6 {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .follow-profile .sph-text .rating-wrap i {
+        font-size: 12px;
+    }
+    .follow-profile .sph-text .rating-wrap span {
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .followers-wrapper-main .container{
+        padding: 0;
+    }
+    .foll-heading{
+        font-size: 20px;
+        color: #050F2F;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,154 @@
+.buyer>tr>td:first-child {
+    color: #1EDD0E
+}
+.buyer>tr>td:nth-child(2) {
+    color: #1EDD0E
+}
+.buyer>tr>td:nth-child(3) {
+    color: #1EDD0E
+}
+.buyer>tr>td:nth-child(4) {
+    color: #FF0093
+}
+.buyer>tr>td:nth-child(5) {
+    color: #FF0093
+}
+.buyer>tr>td:nth-child(6) {
+    color: #FF0093
+}
+.input-qty {
+    background: transparent;
+    border: none;
+    width: 100%;
+    max-width: 260px;
+    font-size: 34px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.price-card {
+    background-image: linear-gradient(77deg, #00FFC2, #00B8BA 100%);
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+
+.price-card-pink {
+    background-image: linear-gradient(77deg, #fa528b 0%, #ffc26f 99%);
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+
+.input-price-div {
+    background: #ffffff;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+
+.input-price-div p {
+    padding: 5px;
+}
+
+input.minus {
+    background: transparent;
+    border: 0px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+
+input.plus {
+    background: transparent;
+    border: 0px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+
+.new-card-ce {
+    padding: 10px !important;
+}
+
+.new-card-ce p {
+    font-size: 12px;
+}
+
+.new-card-ce h2 {
+    font-size: 13px;
+}
+
+.mb-6 {
+    margin-bottom: 6px !important;
+}
+
+@media (max-width: 525px) {
+    .new-card-ce img {
+        max-width: 60px;
+    }
+
+    .new-card-ce h4 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        line-height: 1;
+        margin-top: 2px;
+    }
+
+    .mkt-new {
+        text-align: right;
+        padding-right: 15px !important;
+    }
+
+    .mkt-newbtn {
+        text-align: right;
+    }
+
+    .mkt-newbtn button {
+        max-width: 65px;
+        padding: 1px !important;
+        margin-top: -33px !important;
+    }
+
+    .mkt-new p {
+        margin-bottom: 3px !important;
+    }
+
+    .pl-0-new {
+        padding-left: 0 !important;
+    }
+
+    .card {
+        margin-bottom: 70px;
+    }
+
+    .input-qty {
+        max-width: 210px;
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    .name-card-margin {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    .input-qty {
+        max-width: 180px;
+        font-size: 26px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 297px) {
+    .input-qty {
+        max-width: 150px;
+        font-size: 21px;
+        font-weight: 900;
+    }
+}
+
+.new-marq {
+    overflow: hidden;
+}

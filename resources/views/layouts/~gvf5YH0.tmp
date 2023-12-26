@@ -1,0 +1,206 @@
+<?php
+$url = Request::segment(2);
+if($url == 'posts' || $url == 'videos'){
+?>
+
+
+<?php } ?>
+<style>
+.main-nav-tabss{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: flex-start;
+    font-family: Roboto;
+    border-bottom: none;
+    overflow-x: auto;
+}
+.main-tab-item{
+    margin-right: 15px;
+}
+.main-tab-link{
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    color: #000 !important;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+        padding: 0px 20px;
+    white-space: nowrap;
+}
+.main-tab-link.active {
+    color: #ff0093 !important;
+    position: relative;
+}
+.main-tab-link.active::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #ff0093;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width: 767px){
+.main-nav-tabss {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+.main-tab-link{
+    white-space: nowrap;
+    margin-bottom: 6px;
+    padding: 5px 50px;
+    font-size: 13px;
+    font-weight: 600 !important;
+}
+.main-nav-tabss::-webkit-scrollbar {
+  /*width: 2px;*/
+  /*height: 3px;*/
+}
+.main-nav-tabss::-webkit-scrollbar-track {
+  /*background: transparent;*/
+  /*border-radius: 10px;*/
+}
+.main-nav-tabss::-webkit-scrollbar-thumb {
+  /*background: transparent;*/
+}
+.main-nav-tabss::-webkit-scrollbar-thumb:hover {
+  /*background: transparent;*/
+}
+}
+</style>
+<div class="row tab-margin-top">
+        <div class="col-12">
+            
+<?php if(isset($artist)){ ?>
+<ul class="nav nav-tabs main-nav-tabss mt-4">
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'market'){ echo 'active'; } ?> " href="market">market</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'stock-price'){ echo 'active'; } ?>" data-id="{{ $artist['id'] }}" data-page="stock-price" data-href="artist/stock-price/{{ $artist['id'] }}" >stock price</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'songs'){ echo 'active'; } ?>" data-id="{{ $artist['id'] }}" data-page="songs" data-href="artist/songs/{{ $artist['id'] }}">songs</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'videos'){ echo 'active'; } ?>" data-href="artist/videos/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >videos</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'posts'){ echo 'active'; } ?>" data-href="artist/posts/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >Posts</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'followers'){ echo 'active'; } ?>" data-href="artist/followers/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >followers</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'profile'){ echo 'active'; } ?>" data-href="artist/profile/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >Profile</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'photos'){ echo 'active'; } ?>" data-href="artist/photos/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >photos</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'revenue-streams'){ echo 'active'; } ?>" data-href="artist/revenue-streams/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >revenue</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'bank'){ echo 'active'; } ?>" data-href="artist/bank/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}"  >bank</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'collaborate'){ echo 'active'; } ?>" data-href="artist/collaborate/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >collaborate</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'invite'){ echo 'active'; } ?>" data-href="artist/invite/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >invite</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'promote'){ echo 'active'; } ?>" data-href="artist/promote/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}" >promote</a>
+    </li>
+    
+    <li class="main-tab-item">
+    <a class="main-tab-link <?php if($url == 'ecommerce-products'){ echo 'active'; } ?>" data-href="artist/ecommerce-products/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}">store</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'subscriptions'){ echo 'active'; } ?>" data-href="artist/subscriptions/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}">subscriptions</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'investment-deal'){ echo 'active'; } ?>" data-href="artist/investment-deal/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}">investment deal</a>
+    </li>
+    
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'academy'){ echo 'active'; } ?>" data-href="artist/academy/{{ $artist['id'] }}" data-id="{{ $artist['id'] }}">academy</a>
+    </li>
+    <li class="main-tab-item">
+        <a class="main-tab-link <?php if($url == 'dashboard'){ echo 'active'; } ?>" href="artist/profile/{{ $artist['id'] }}" >dashboard</a>
+    </li>
+
+</ul>
+<?php } ?>
+</div>
+    </div>
+  
+    <script>
+     $(document).ready(function(){
+         <?= $artist['stock_value'];?>
+        $('.plus').click( function(){
+            qty=parseFloat( $("#quantity").val())+1;
+    	////console.debug(qty);
+    	if (isNaN(qty)){
+    	    qty=1;
+    	}
+        $('#quantity').val(qty);
+
+        });
+        $( document ).on( "click", ".minus", function() {
+   	    var qty=$("#quantity").val()-1;
+    	if (qty<=0){
+    		qty=1;
+    	}
+    	
+    	$("#quantity").val( qty );
+   });
+   
+
+       //var action = window.location.href;
+      // loadPages(<?= $artist['id'] ?>,action);
+      var scrollWidth=document.getElementsByClassName('nav-tabs')[0].scrollWidth;
+        var currentTabIndex=$('.main-tab-link').index($('.main-tab-link.active'));
+       document.getElementsByClassName('nav-tabs')[0].scroll(((scrollWidth/$('.main-tab-link').length)*currentTabIndex)+(10-currentTabIndex),0);
+     });
+     $('.main-tab-link').click(function(){
+        var action = $(this).data('href');
+        var id = $(this).data('id');   
+        $('.main-tab-link').removeClass('active')
+        $(this).addClass('active');
+    //function loadPages(id,action){
+        $.ajax({
+        url : action,
+        type: "GET",
+        cache:false,
+        data:{id:id},
+        success:function(data){
+          if (data) {
+              const data1 = JSON.parse(data);
+              console.log(data1);
+                window.history.pushState("","", action);
+              $(".page_section").html(data1.html);
+             
+          }
+        }
+      });
+    })
+    
+   // }
+    </script>
+   
